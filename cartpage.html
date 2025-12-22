@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Din Kurv - Jelling Stenhuggeri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/cartpage.css">
+    
+</head>
+<body>
+    <!-- ANIMATED BACKGROUND -->
+    <div class="animated-bg">
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+        <div class="floating-shape shape4"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <span class="material-icons">shopping_cart</span>
+                    </div>
+                    <div>
+                        <div class="logo">
+                  <a href="index.html">
+                    <img src="assets/logo.png" alt="logo-img" style="width:170px">
+                  </a>
+                </div>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="goBack()">
+                    <span class="material-icons">arrow_back</span>
+                    <span>Fortsæt design</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- CART LAYOUT -->
+        <div class="cart-layout">
+            <!-- LEFT: CART ITEMS -->
+            <div class="cart-items" id="cartItems"></div>
+
+            <!-- RIGHT: SUMMARY -->
+            <div class="cart-summary">
+                <div class="summary-card">
+                    <div class="summary-title">Ordreoversigt</div>
+                    
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span class="summary-value"><span id="subtotal">0</span> DKK</span>
+                    </div>
+                    
+                    <div class="summary-row">
+                        <span>Moms (25%)</span>
+                        <span class="summary-value"><span id="vat">0</span> DKK</span>
+                    </div>
+                    
+                    <div class="summary-row">
+                        <span>Levering</span>
+                        <span class="summary-value">Gratis</span>
+                    </div>
+                    
+                    <div class="summary-row">
+                        <span style="font-size: 1.3rem; font-weight: 700;">Total</span>
+                        <span class="summary-value summary-total"><span id="total">0</span> DKK</span>
+                    </div>
+
+                    <div class="promo-section">
+                        <label class="promo-label">Har du en rabatkode?</label>
+                        <div class="promo-input">
+                            <input type="text" placeholder="Indtast kode" id="promoCode">
+                            <button onclick="applyPromo()">Anvend</button>
+                        </div>
+                    </div>
+
+                    <button class="checkout-btn" onclick="checkout()">
+                        <span class="material-icons">shopping_cart_checkout</span>
+                        <span>Gå til betaling</span>
+                    </button>
+
+                    <button class="continue-shopping" onclick="goBack()">
+                        <span class="material-icons">arrow_back</span>
+                        <span>Fortsæt med at handle</span>
+                    </button>
+
+                    <div class="trust-badges">
+                        <div class="trust-item">
+                            <div class="material-icons">verified_user</div>
+                            <div>Sikker betaling</div>
+                        </div>
+                        <div class="trust-item">
+                            <div class="material-icons">local_shipping</div>
+                            <div>Fri fragt</div>
+                        </div>
+                        <div class="trust-item">
+                            <div class="material-icons">thumb_up</div>
+                            <div>Kvalitet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="assets/js/cartpage.js"></script>
+</body>
+</html>
