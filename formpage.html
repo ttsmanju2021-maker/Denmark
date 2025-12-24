@@ -9,16 +9,14 @@
     <link rel="stylesheet" href="assets/css/formpage.css">
 </head>
 <body>
-     <div class="main-container">
-    <!-- LEFT SIDEBAR -->
+    <div class="main-container">
+        <!-- LEFT SIDEBAR -->
         <div class="sidebar">
             <div class="sidebar-header">
                 <div class="logo">
-                  <a href="index.html">
-                    <img src="assets/logo.png" alt="logo-img" style="width:170px">
-                  </a>
+                    <a href="index.html">Gravestone Designer</a>
                 </div>
-                <div class="subtitle">Gravestone Designer</div>
+                <div class="subtitle">Create Your Memorial</div>
             </div>
 
             <div class="price-banner">
@@ -52,11 +50,15 @@
                     <span class="material-icons">palette</span>
                     Color
                 </button>
+                <button class="nav-pill" onclick="showSection('decoration')" data-section="decoration">
+                    <span class="material-icons">interests</span>
+                    Decoration
+                </button>
             </div>
 
             <div class="sidebar-content">
                 <div class="note-box">
-                    <strong>📌 OBS</strong>
+                    <strong>📌 NOTE</strong>
                     The design on the stone is indicative. We will contact you if we have any questions.
                 </div>
 
@@ -145,7 +147,26 @@
                     </div>
                 </div>
 
-                <!-- ACTION BUTTONS (Always Visible) -->
+                <!-- DECORATION SECTION -->
+                <div class="section-content" id="section-decoration">
+                    <h3 class="section-heading">
+                        <span class="material-icons">interests</span>
+                        Choose Decorations
+                    </h3>
+                    
+                    <div class="note-box">
+                        <strong>How to use:</strong>
+                        Click on a decoration to add it to the stone. Drag it to position. Use controls to rotate, mirror, and change color. You can add multiple decorations.
+                        <br><br>
+                        <strong>NOTE:</strong> Your design will be quality-assured by our graphic designer and stonemason before production.
+                    </div>
+
+                    <div class="decoration-list" id="decorationList"></div>
+
+                    <div id="activeDecorations" style="margin-top: 20px;"></div>
+                </div>
+
+                <!-- ACTION BUTTONS -->
                 <div class="action-buttons-fixed">
                     <button class="btn btn-primary" onclick="saveToCart()">
                         <span class="material-icons">shopping_cart</span>
@@ -183,20 +204,19 @@
             </div>
 
             <div class="preview-container">
-               
                 <div class="stone-canvas-wrapper">
                     <canvas id="stoneCanvas" width="1000" height="800"></canvas>
                 </div>
-                <div class="preview-controls">
+                <!-- <div class="preview-controls">
                     <button class="preview-btn" onclick="resetTextPosition()">
                         <span class="material-icons">center_focus_strong</span>
                         Reset Position
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
-  <script src="assets/js/formpage.js"></script>
 
-</body> 
+    <script src="assets/js/formpage.js"></script>
+</body>
 </html>
