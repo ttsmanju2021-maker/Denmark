@@ -130,11 +130,11 @@ h6 {
 }
 
 .scheme_original a {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original blockquote:before {
@@ -153,7 +153,7 @@ h6 {
 
 .scheme_original blockquote>a:hover,
 .scheme_original blockquote>p>a:hover {
-    color: #fec321;
+    color: red;
 }
 
 /* 2. Theme Accent Colors
@@ -162,23 +162,23 @@ h6 {
 /* text_link color - use it as background and border with next classes */
 
 .scheme_original .accent1 {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .accent1_bgc {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .accent1_bg {
-    background: #fec321;
+    background: red;
 }
 
 .scheme_original .accent1_border {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original a.accent1:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 /* 2.1 Common colors
@@ -224,7 +224,7 @@ h6 {
 .scheme_original .post_content.ih-item.circle.effect20.colored .info .info-back,
 .scheme_original .post_content.ih-item.square.effect_book.colored .info,
 .scheme_original .post_content.ih-item.square.effect_pull.colored .post_descr {
-    background: #fec321;
+    background: red;
 }
 
 .scheme_original .post_content.ih-item.circle.effect1.colored .info,
@@ -303,7 +303,7 @@ h6 {
 .scheme_original .post_content.ih-item.square.effect_border.colored .img,
 .scheme_original .post_content.ih-item.square.effect_fade.colored .img,
 .scheme_original .post_content.ih-item.square.effect_slide.colored .img {
-    background: #fec321;
+    background: red;
 }
 
 .scheme_original .post_content.ih-item.square.effect_border.colored .info,
@@ -318,11 +318,11 @@ h6 {
 }
 
 .scheme_original .post_content.ih-item.circle.effect1 .spinner {
-    border-right-color: #fec321;
+    border-right-color: red;
 }
 
 .scheme_original .post_content.ih-item.circle.effect1 .spinner {
-    border-bottom-color: #fec321;
+    border-bottom-color: red;
 }
 
 .scheme_original .post_content.ih-item .post_readmore .post_readmore_label,
@@ -351,7 +351,7 @@ h6 {
 
 .scheme_original .sc_table table tr:first-child th,
 .scheme_original .sc_table table tr:first-child td {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_table table tr:first-child th,
@@ -372,7 +372,7 @@ h6 {
 }
 
 .scheme_original .sc_table table tr:first-child td:last-child {
-    border-right-color: #fec321;
+    border-right-color: red;
 }
 
 .scheme_original .sc_table td,
@@ -385,12 +385,12 @@ h6 {
 .scheme_original pre.code,
 .scheme_original #toc .toc_item.current,
 .scheme_original #toc .toc_item:hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original ::selection,
 .scheme_original ::-moz-selection {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original ::selection,
@@ -460,7 +460,7 @@ textarea {
 .scheme_original input[type="password"]:hover,
 .scheme_original select:hover,
 .scheme_original textarea:hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .select2-container .select2-choice:focus,
@@ -503,10 +503,10 @@ textarea {
 .scheme_original .sc_input_hover_accent input[type="search"]:focus,
 .scheme_original .sc_input_hover_accent select:focus,
 .scheme_original .sc_input_hover_accent textarea:focus {
-    -webkit-box-shadow: 0px 0px 0px 2px #fec321;
-    -moz-box-shadow: 0px 0px 0px 2px #fec321;
-    -ms-box-shadow: 0px 0px 0px 2px #fec321;
-    box-shadow: 0px 0px 0px 2px #fec321;
+    -webkit-box-shadow: 0px 0px 0px 2px red;
+    -moz-box-shadow: 0px 0px 0px 2px red;
+    -ms-box-shadow: 0px 0px 0px 2px red;
+    box-shadow: 0px 0px 0px 2px red;
 }
 
 .scheme_original .sc_input_hover_accent input[type="text"]+label:before,
@@ -557,7 +557,7 @@ textarea {
 .scheme_original .sc_input_hover_jump input[type="password"].filled,
 .scheme_original .sc_input_hover_jump input[type="search"].filled,
 .scheme_original .sc_input_hover_jump textarea.filled {
-    border-color: #fec321;
+    border-color: red;
 }
 
 /* Underline */
@@ -699,7 +699,7 @@ textarea {
 
 .scheme_original .top_panel_wrap .icons::before,
 .scheme_original .top_panel_wrap .icons::before {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .top_panel_top {
@@ -717,7 +717,7 @@ textarea {
 
 .scheme_original .top_panel_top .sc_socials.sc_socials_type_icons a:hover,
 .scheme_original .top_panel_top a:hover {
-    color: #fec321;
+    color: red;
 }
 
 /* User menu */
@@ -727,7 +727,7 @@ textarea {
 }
 
 .scheme_original .menu_user_nav>li>a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .menu_user_nav>li ul:not(.cart_list) {
@@ -812,7 +812,7 @@ textarea {
 /* Top panel (bottom area) */
 
 .scheme_original .top_panel_bottom {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Top panel image in the header 7  */
@@ -869,7 +869,7 @@ textarea {
 .scheme_original .menu_main_nav>li.current-menu-item>a,
 .scheme_original .menu_main_nav>li.current-menu-parent>a,
 .scheme_original .menu_main_nav>li.current-menu-ancestor>a {
-    color: #fecf4d;
+    color: red;
 }
 
 .scheme_original .top_panel_inner_style_1 .menu_main_nav>a:hover,
@@ -916,7 +916,7 @@ textarea {
 
 .scheme_original .top_panel_inner_style_1 .menu_hover_slide_box .menu_main_nav>li#blob,
 .scheme_original .top_panel_inner_style_2 .menu_hover_slide_box .menu_main_nav>li#blob {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 /* slide_line */
@@ -1031,11 +1031,11 @@ textarea {
 }
 
 .scheme_original .top_panel_middle .contact_icon {
-    color: #231f20;
+    color: #fff;
 }
 
 .scheme_original .top_panel_middle .contact_icon {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .top_panel_middle .contact_field>a:hover .contact_icon {
@@ -1130,12 +1130,12 @@ textarea {
 }
 
 .scheme_original .top_panel_icon.search_wrap {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .top_panel_icon .contact_icon,
 .scheme_original .top_panel_icon .search_submit {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .top_panel_icon.menu_main_cart .contact_icon {
@@ -1165,12 +1165,12 @@ textarea {
 
 .scheme_original .search_results .post_more,
 .scheme_original .search_results .search_results_close {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .search_results .post_more:hover,
 .scheme_original .search_results .search_results_close:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .top_panel_inner_style_1 .search_results,
@@ -1188,7 +1188,7 @@ textarea {
 .scheme_original .top_panel_inner_style_2 .search_results:after,
 .scheme_original .top_panel_inner_style_3 .search_results,
 .scheme_original .top_panel_inner_style_3 .search_results:after {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .top_panel_inner_style_1 .search_results,
@@ -1197,7 +1197,7 @@ textarea {
 .scheme_original .top_panel_inner_style_2 .search_results:after,
 .scheme_original .top_panel_inner_style_3 .search_results,
 .scheme_original .top_panel_inner_style_3 .search_results:after {
-    border-color: #d7a92b;
+    border-color: red;
 }
 
 .scheme_original .top_panel_inner_style_1 .search_results a,
@@ -1284,11 +1284,11 @@ textarea {
 }
 
 .scheme_original .pushy_inner a {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .pushy_inner a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .pushy_inner ul ul {
@@ -1303,13 +1303,13 @@ textarea {
 .scheme_original .top_panel_inner_style_4 .popup_wrap .sc_socials.sc_socials_type_icons a:hover,
 .scheme_original .top_panel_inner_style_5 .popup_wrap a,
 .scheme_original .top_panel_inner_style_5 .popup_wrap .sc_socials.sc_socials_type_icons a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .top_panel_inner_style_3 .popup_wrap a:hover,
 .scheme_original .top_panel_inner_style_4 .popup_wrap a:hover,
 .scheme_original .top_panel_inner_style_5 .popup_wrap a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .top_panel_inner_style_3 .popup_wrap,
@@ -1343,22 +1343,22 @@ textarea {
 
 .scheme_original .header_mobile .panel_top,
 .scheme_original .header_mobile .side_wrap {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .header_mobile .panel_middle {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .header_mobile .panel_bottom {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .header_mobile .menu_button:hover,
 .scheme_original .header_mobile .menu_main_cart .top_panel_cart_button .contact_icon:hover,
 .scheme_original .header_mobile .menu_main_cart.top_panel_icon:hover .top_panel_cart_button .contact_icon,
 .scheme_original .header_mobile .side_wrap .close:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .header_mobile .menu_main_nav>li a,
@@ -1385,7 +1385,7 @@ textarea {
 
 .scheme_original .header_mobile .search_wrap,
 .scheme_original .header_mobile .login {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .header_mobile .login .popup_link,
@@ -1455,7 +1455,7 @@ textarea {
 
 .scheme_original .top_panel_title_inner .post_navi .post_navi_item a:hover,
 .scheme_original .top_panel_title_inner .breadcrumbs a.breadcrumbs_item:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .top_panel_title_inner .post_navi span,
@@ -1474,13 +1474,13 @@ textarea {
 /* Layout Excerpt */
 
 .scheme_original .post_title .post_icon {
-    color: #fec321;
+    color: red;
 }
 
 /* Blog pagination */
 
 .scheme_original .pagination>a {
-    border-color: #fec321;
+    border-color: red;
 }
 
 /*---LESS_SEPARATOR---*/
@@ -1492,7 +1492,7 @@ textarea {
 
 .scheme_original .post_format_aside.post_item_single .post_content p,
 .scheme_original .post_format_aside .post_descr {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .post_format_aside.post_item_single .post_content p,
@@ -1507,7 +1507,7 @@ textarea {
 
 .scheme_original .hover_icon_play:hover:before,
 .scheme_original .hover_icon:before {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .hover_icon_play:before {
@@ -1539,7 +1539,7 @@ textarea {
 .scheme_original .post_info .post_info_posted a:hover,
 .scheme_original .post_info a:not(.social_icons):hover,
 .scheme_original .post_info a:not(.social_icons):hover>span {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .post_item_excerpt+.post_item_excerpt {
@@ -1563,11 +1563,11 @@ textarea {
 
 .scheme_original .post_info_bottom a.category_link:hover,
 .scheme_original .post_info_bottom .post_info_tags a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .post_item .post_readmore:hover .post_readmore_label {
-    color: #d7a92b;
+    color: red;
 }
 
 /* Related posts */
@@ -1578,7 +1578,7 @@ textarea {
 
 .scheme_original .post_item_related .post_info a:hover,
 .scheme_original .post_item_related .post_title a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .related_wrap .post_item_related,
@@ -1601,7 +1601,7 @@ textarea {
 .scheme_original .isotope_item_colored .post_featured .post_mark_new,
 .scheme_original .isotope_item_colored .post_featured .post_title,
 .scheme_original .isotope_item_colored .post_content.ih-item.square.colored .info {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .isotope_item_colored .post_featured .post_title a {
@@ -1612,7 +1612,7 @@ textarea {
 .scheme_original .isotope_item_colored .post_rating .reviews_stars_bg,
 .scheme_original .isotope_item_colored .post_rating .reviews_stars_hover,
 .scheme_original .isotope_item_colored .post_rating .reviews_value {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .isotope_item_colored .post_featured .post_descr {
@@ -1624,7 +1624,7 @@ textarea {
 }
 
 .scheme_original .isotope_item_colored .post_info_wrap .post_button .sc_button {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .isotope_item_colored .post_info_wrap .post_button .sc_button {
@@ -1653,17 +1653,17 @@ textarea {
 /* Masonry and Portfolio */
 
 .scheme_original .isotope_wrap .isotope_item_colored_1 .post_featured {
-    border-color: #fec321;
+    border-color: red;
 }
 
 /* Isotope filters */
 
 .scheme_original .isotope_filters a {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .isotope_filters a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .isotope_filters a {
@@ -1672,12 +1672,12 @@ textarea {
 
 .scheme_original .isotope_filters a.active,
 .scheme_original .isotope_filters a:hover {
-    border-color: #d7a92b;
+    border-color: red;
 }
 
 .scheme_original .isotope_filters a.active,
 .scheme_original .isotope_filters a:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 /* 7.7 Paginations
@@ -1699,7 +1699,7 @@ textarea {
 .scheme_original .pagination_slider .pager_cur:focus,
 .scheme_original .pagination_pages>.active,
 .scheme_original .pagination_pages>a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .pagination_slider .pager_slider {
@@ -1717,7 +1717,7 @@ textarea {
 }
 
 .scheme_original .pagination_viewmore>a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .pagination_viewmore>a:hover {
@@ -1725,7 +1725,7 @@ textarea {
 }
 
 .scheme_original .pagination_viewmore>a:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 /* Loader picture */
@@ -1733,7 +1733,7 @@ textarea {
 .scheme_original .viewmore_loader,
 .scheme_original .mfp-preloader span,
 .scheme_original .sc_video_frame.sc_video_active:before {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 /* 8 Single page parts
@@ -1751,7 +1751,7 @@ textarea {
 }
 
 .scheme_original .post_featured .post_nav_item:before {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .post_featured .post_nav_item:before {
@@ -1759,14 +1759,14 @@ textarea {
 }
 
 .scheme_original .post_featured .post_nav_item .post_nav_info {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* 8.2 Reviews block
 -------------------------------------------------------------- */
 
 .scheme_original .reviews_block .reviews_summary .reviews_item {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .reviews_block .reviews_summary,
@@ -1781,11 +1781,11 @@ textarea {
 
 .scheme_original .reviews_block .reviews_max_level_100 .reviews_stars_hover,
 .scheme_original .reviews_block .reviews_item .reviews_slider {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .reviews_block .reviews_item .reviews_stars_hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .reviews_block .reviews_value {
@@ -1805,7 +1805,7 @@ textarea {
 .scheme_original .post_item .post_rating .reviews_stars_bg,
 .scheme_original .post_item .post_rating .reviews_stars_hover,
 .scheme_original .post_item .post_rating .reviews_value {
-    color: #fec321;
+    color: red;
 }
 
 /*---LESS_SEPARATOR---*/
@@ -1830,7 +1830,7 @@ textarea {
 }
 
 .scheme_original .post_author .post_author_title a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .post_author .post_author_info .sc_socials_shape_square a {
@@ -1838,7 +1838,7 @@ textarea {
 }
 
 .scheme_original .post_author .post_author_info .sc_socials_shape_square a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 /* 8.4 Comments
@@ -1846,21 +1846,21 @@ textarea {
 
 .scheme_original .comments_list_wrap ul.children,
 .scheme_original .comments_list_wrap ul>li+li {
-    border-top-color: #fec321;
+    border-top-color: red;
 }
 
 .scheme_original .comments_list_wrap .comment-respond {
-    border-bottom-color: #fec321;
+    border-bottom-color: red;
 }
 
 .scheme_original .comments_list_wrap>ul {
-    border-bottom-color: #fec321;
+    border-bottom-color: red;
 }
 
 .scheme_original a.comment-reply-link:hover,
 .scheme_original .comments_list_wrap .comment_info>span.comment_author,
 .scheme_original .comments_list_wrap .comment_info>.comment_date>.comment_date_value {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .comments_list_wrap ul.children,
@@ -1884,7 +1884,7 @@ textarea {
 
 .scheme_original .post_item_404 .page_title,
 .scheme_original .post_item_404 .page_subtitle {
-    color: #fec321;
+    color: red;
 }
 
 /* 9. Sidebars
@@ -1961,7 +1961,7 @@ textarea {
 }
 
 .scheme_original .sidebar_outer_menu .sidebar_outer_menu_buttons>a:hover {
-    color: #fec321;
+    color: red;
 }
 
 /* Common rules */
@@ -1989,7 +1989,7 @@ textarea {
 .scheme_original .widget_area_inner a,
 .scheme_original .widget_area_inner ul li:before,
 .scheme_original .widget_area_inner ul li a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .widget_area_inner a:hover,
@@ -2003,12 +2003,12 @@ textarea {
 
 .scheme_original .widget_area_inner .widget_text a:not(.sc_button),
 .scheme_original .widget_area_inner .post_info a {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .widget_area_inner .widget_text a:not(.sc_button):hover,
 .scheme_original .widget_area_inner .post_info a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 /* Widget: Search */
@@ -2025,7 +2025,7 @@ textarea {
 
 .scheme_original .widget_area_inner .widget_product_search .search_button,
 .scheme_original .widget_area_inner .widget_search .search_button {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .widget_area_inner .widget_product_search .search_button:hover,
@@ -2035,7 +2035,7 @@ textarea {
 
 .scheme_original .widget_area_inner .widget_product_search .search_button:hover,
 .scheme_original .widget_area_inner .widget_search .search_button:hover {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Widget: Calendar */
@@ -2045,7 +2045,7 @@ textarea {
 }
 
 .scheme_original .widget_area .widget_calendar .month_cur a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .widget_area_inner .widget_calendar .weekday {
@@ -2053,11 +2053,11 @@ textarea {
 }
 
 .scheme_original .widget_area_inner .widget_calendar td a:hover {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .widget_area_inner .widget_calendar td a:hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .widget_area_inner .widget_calendar td a:hover {
@@ -2065,11 +2065,11 @@ textarea {
 }
 
 .scheme_original .widget_area_inner .widget_calendar .today .day_wrap {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .widget_area_inner .widget_calendar .today .day_wrap {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .widget_area_inner .widget_calendar .today .day_wrap {
@@ -2095,12 +2095,12 @@ textarea {
 
 .scheme_original .widget_area_inner .widget_product_tag_cloud a:not([class*="sc_button_hover_"]):hover,
 .scheme_original .widget_area_inner .widget_tag_cloud a:not([class*="sc_button_hover_"]):hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .widget_area_inner .widget_product_tag_cloud a:not([class*="sc_button_hover_"]):hover,
 .scheme_original .widget_area_inner .widget_tag_cloud a:not([class*="sc_button_hover_"]):hover {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .widget_area_inner .widget_product_tag_cloud a:not([class*="sc_button_hover_"]):hover,
@@ -2122,7 +2122,7 @@ textarea {
 
 .scheme_original footer .call_wrap_inner .call-title,
 .scheme_original footer.widget_area .widget_title {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original footer .widget_area_inner {
@@ -2134,7 +2134,7 @@ textarea {
 }
 
 .scheme_original footer .call_wrap_inner {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original footer .call_wrap_inner {
@@ -2150,11 +2150,11 @@ textarea {
 }
 
 .scheme_original footer .call_wrap_inner .sc_button:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original footer .call_wrap_inner .sc_button:hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .call_wrap_inner .content_wrap {
@@ -2186,7 +2186,7 @@ textarea {
 
 .scheme_original .copyright_wrap_inner a:hover,
 .scheme_original .copyright_wrap_inner .menu_footer_nav li a:hover {
-    color: #fec321;
+    color: red;
 }
 
 /* 11. Utils
@@ -2203,7 +2203,7 @@ textarea {
 }
 
 .scheme_original .scroll_to_top {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .scroll_to_top:hover {
@@ -2211,7 +2211,7 @@ textarea {
 }
 
 .scheme_original .scroll_to_top:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 /* Preloader */
@@ -2221,7 +2221,7 @@ textarea {
 }
 
 .scheme_original .preloader_wrap>div {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Gallery preview */
@@ -2282,7 +2282,7 @@ textarea {
 .scheme_original .woocommerce ul.products li.product h2.woocommerce-loop-product__title a:hover,
 .scheme_original .woocommerce ul.products li.product h3 a:hover,
 .scheme_original .woocommerce-page ul.products li.product h3 a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .woocommerce div.product div.images,
@@ -2292,7 +2292,7 @@ textarea {
 .scheme_original .woocommerce-page #content div.product div.images,
 .scheme_original .woocommerce ul.products li.product .post_item_wrap,
 .scheme_original .woocommerce-page ul.products li.product .post_item_wrap {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .woocommerce table.cart td.actions .coupon .input-text,
@@ -2316,7 +2316,7 @@ textarea {
 .scheme_original .woocommerce-page .shop_mode_thumbs .mode_buttons a.woocommerce_thumbs,
 .scheme_original .woocommerce .shop_mode_list .mode_buttons a.woocommerce_list,
 .scheme_original .woocommerce-page .shop_mode_list .mode_buttons a.woocommerce_list {
-    color: #fec321;
+    color: red;
 }
 
 /* Theme colors */
@@ -2386,7 +2386,7 @@ textarea {
 
 .scheme_original .woocommerce div.quantity span:hover,
 .scheme_original .woocommerce-page div.quantity span:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
@@ -2395,12 +2395,12 @@ textarea {
 
 .scheme_original .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
 .scheme_original .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
 .scheme_original .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle {
-    background: #fec321;
+    background: red;
 }
 
 .scheme_original .woocommerce .woocommerce-message,
@@ -2425,7 +2425,7 @@ textarea {
 .scheme_original .woocommerce-page input.button:active,
 .scheme_original .woocommerce-page #respond input#submit:active,
 .scheme_original .woocommerce-page #content input.button:active {
-    border-top-color: #fec321;
+    border-top-color: red;
 }
 
 /* Buttons */
@@ -2453,7 +2453,7 @@ textarea {
 .scheme_original .woocommerce-account .addresses .title .edit,
 .scheme_original .woocommerce ul.products li.product .add_to_cart_button,
 .scheme_original .woocommerce-page ul.products li.product .add_to_cart_button {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .woocommerce a.button,
@@ -2479,7 +2479,7 @@ textarea {
 .scheme_original .woocommerce-account .addresses .title .edit,
 .scheme_original .woocommerce ul.products li.product .add_to_cart_button,
 .scheme_original .woocommerce-page ul.products li.product .add_to_cart_button {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .woocommerce a.button,
@@ -2531,7 +2531,7 @@ textarea {
 .scheme_original .woocommerce-account .addresses .title .edit:hover,
 .scheme_original .woocommerce ul.products li.product .add_to_cart_button:hover,
 .scheme_original .woocommerce-page ul.products li.product .add_to_cart_button:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .woocommerce a.button:hover,
@@ -2557,7 +2557,7 @@ textarea {
 .scheme_original .woocommerce-account .addresses .title .edit:hover,
 .scheme_original .woocommerce ul.products li.product .add_to_cart_button:hover,
 .scheme_original .woocommerce-page ul.products li.product .add_to_cart_button:hover {
-    border-color: #d7a92b;
+    border-color: red;
 }
 
 .scheme_original .woocommerce a.button:hover,
@@ -2612,7 +2612,7 @@ textarea {
 .scheme_original .woocommerce-page span.new,
 .scheme_original .woocommerce span.onsale,
 .scheme_original .woocommerce-page span.onsale {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .woocommerce span.new,
@@ -2653,12 +2653,12 @@ textarea {
 
 .scheme_original .woocommerce nav.woocommerce-pagination ul li a,
 .scheme_original .woocommerce nav.woocommerce-pagination ul li span.current {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .woocommerce nav.woocommerce-pagination ul li a,
 .scheme_original .woocommerce nav.woocommerce-pagination ul li span.current {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .woocommerce nav.woocommerce-pagination ul li a,
@@ -2669,7 +2669,7 @@ textarea {
 .scheme_original .woocommerce nav.woocommerce-pagination ul li a:focus,
 .scheme_original .woocommerce nav.woocommerce-pagination ul li a:hover,
 .scheme_original .woocommerce nav.woocommerce-pagination ul li span.current {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .woocommerce nav.woocommerce-pagination ul li a:focus,
@@ -2694,7 +2694,7 @@ textarea {
 }
 
 .scheme_original .single-product div.product .woocommerce-tabs.trx-stretch-width .wc-tabs li a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .single-product div.product .woocommerce-tabs.trx-stretch-width .wc-tabs li a {
@@ -2717,7 +2717,7 @@ textarea {
 .scheme_original .woocommerce #content table.cart thead th,
 .scheme_original .woocommerce-page table.cart thead th,
 .scheme_original .woocommerce-page #content table.cart thead th {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .woocommerce table.cart thead th,
@@ -2741,7 +2741,7 @@ textarea {
 /* Widgets */
 
 .scheme_original .top_panel_wrap .widget_shopping_cart ul.cart_list>li>a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 /* Widget Product Categories */
@@ -2771,7 +2771,7 @@ textarea {
 ------------------------------------------------------- */
 
 .scheme_original .tribe-events-calendar thead th {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Buttons */
@@ -2782,7 +2782,7 @@ textarea {
 .scheme_original .tribe-events-nav-next a,
 .scheme_original .tribe-events-widget-link a,
 .scheme_original .tribe-events-viewmore a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original a.tribe-events-read-more,
@@ -2800,7 +2800,7 @@ textarea {
 .scheme_original .tribe-events-nav-next a:hover,
 .scheme_original .tribe-events-widget-link a:hover,
 .scheme_original .tribe-events-viewmore a:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original a.tribe-events-read-more:hover,
@@ -2829,7 +2829,7 @@ textarea {
 .scheme_original a.bp-title-button,
 .scheme_original #buddypress div.item-list-tabs ul li.selected a,
 .scheme_original #buddypress .acomment-options a {
-    background: #fec321;
+    background: red;
 }
 
 .scheme_original #bbpress-forums div.bbp-topic-content a,
@@ -2859,7 +2859,7 @@ textarea {
 .scheme_original a.bp-title-button:hover,
 .scheme_original #buddypress div.item-list-tabs ul li.selected a:hover,
 .scheme_original #buddypress .acomment-options a:hover {
-    background: #d7a92b;
+    background: red;
 }
 
 .scheme_original #bbpress-forums div.bbp-topic-content a:hover,
@@ -3053,7 +3053,7 @@ textarea {
 
 .scheme_original #buddypress #reply-title small a span,
 .scheme_original #buddypress a.bp-primary-action span {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original #buddypress #reply-title small a span,
@@ -3100,7 +3100,7 @@ textarea {
 }
 
 .scheme_original .booking_month_navigation_button_custom:hover {
-    background-color: #d7a92b !important;
+    background-color: red !important;
 }
 
 /* 13.6 LearnDash LMS
@@ -3111,15 +3111,15 @@ textarea {
 }
 
 .scheme_original #learndash_next_prev_link>a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original #learndash_next_prev_link>a:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .widget_area dd.course_progress div.course_progress_blue {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 /* 13.7 HTML5 Audio Player
@@ -3164,11 +3164,11 @@ textarea {
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active .sc_accordion_icon_opened {
@@ -3176,19 +3176,19 @@ textarea {
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active .sc_accordion_icon_opened {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title:hover {
-    border-color: #d7a92b;
+    border-color: red;
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title:hover .sc_accordion_icon_opened {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_content {
@@ -3230,7 +3230,7 @@ textarea {
 .scheme_original .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
 .scheme_original .mejs-controls .mejs-volume-button .mejs-volume-slider,
 .scheme_original .mejs-controls .mejs-time-rail .mejs-time-current {
-    background: #fec321 !important;
+    background: red !important;
 }
 
 .scheme_original .mejs-container,
@@ -3267,7 +3267,7 @@ textarea {
 .scheme_original .mejs-container .mejs-controls .mejs-fullscreen-button,
 .scheme_original .mejs-container .mejs-controls .mejs-volume-button,
 .scheme_original .mejs-container .mejs-controls .mejs-playpause-button {
-    background: #fec321 !important;
+    background: red !important;
 }
 
 /* Button */
@@ -3308,12 +3308,12 @@ button,
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print,
 .scheme_original body .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a {
-    background-color: #fec321 !important;
+    background-color: red !important;
 }
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print,
 .scheme_original body .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a {
-    border-color: #fec321 !important;
+    border-color: red !important;
 }
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print,
@@ -3326,7 +3326,7 @@ button,
 .scheme_original input[type="button"],
 .scheme_original button,
 .scheme_original .sc_button.sc_button_style_filled {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original input[type="submit"],
@@ -3334,7 +3334,7 @@ button,
 .scheme_original input[type="button"],
 .scheme_original button,
 .scheme_original .sc_button.sc_button_style_filled {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original input[type="submit"],
@@ -3347,12 +3347,12 @@ button,
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print:hover,
 .scheme_original body .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a:hover {
-    background-color: #d7a92b !important;
+    background-color: red !important;
 }
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print:hover,
 .scheme_original body .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a:hover {
-    border-color: #d7a92b !important;
+    border-color: red !important;
 }
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print:hover,
@@ -3365,7 +3365,7 @@ button,
 .scheme_original input[type="button"]:not([class*="sc_button_hover_"]):hover,
 .scheme_original button:not([class*="sc_button_hover_"]):hover,
 .scheme_original .sc_button.sc_button_style_filled:not([class*="sc_button_hover_"]):hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original input[type="submit"]:not([class*="sc_button_hover_"]):hover,
@@ -3373,7 +3373,7 @@ button,
 .scheme_original input[type="button"]:not([class*="sc_button_hover_"]):hover,
 .scheme_original button:not([class*="sc_button_hover_"]):hover,
 .scheme_original .sc_button.sc_button_style_filled:not([class*="sc_button_hover_"]):hover {
-    border-color: #d7a92b;
+    border-color: red;
 }
 
 .scheme_original input[type="submit"]:not([class*="sc_button_hover_"]):hover,
@@ -3385,15 +3385,15 @@ button,
 }
 
 .scheme_original .sc_button.sc_button_style_border {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_button.sc_button_style_border {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_button.sc_button_style_border:hover {
-    border-color: #d7a92b !important;
+    border-color: red !important;
 }
 
 /* ================= BUTTON'S HOVERS ==================== */
@@ -3401,7 +3401,7 @@ button,
 /* Fade */
 
 .scheme_original [class*="sc_button_hover_fade"]:hover {
-    background-color: #d7a92b !important;
+    background-color: red !important;
 }
 
 .scheme_original [class*="sc_button_hover_fade"]:hover {
@@ -3428,11 +3428,11 @@ button,
 }
 
 .scheme_original [class*="sc_button_hover_slide"] {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original [class*="sc_button_hover_slide"]:hover {
-    background-color: #d7a92b !important;
+    background-color: red !important;
 }
 
 .sc_button_hover_slide_left {
@@ -3440,12 +3440,12 @@ button,
 }
 
 .scheme_original .sc_button_hover_slide_left {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #d7a92b), color-stop(50%, #fec321));
-    background: -webkit-linear-gradient(left, #d7a92b 50%, #fec321 50%);
-    background: -moz-linear-gradient(left, #d7a92b 50%, #fec321 50%);
-    background: -ms-linear-gradient(left, #d7a92b 50%, #fec321 50%);
-    background: -o-linear-gradient(left, #d7a92b 50%, #fec321 50%);
-    background: linear-gradient(to right, #d7a92b 50%, #fec321 50%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, red), color-stop(50%, red));
+    background: -webkit-linear-gradient(left, red 50%, red 50%);
+    background: -moz-linear-gradient(left, red 50%, red 50%);
+    background: -ms-linear-gradient(left, red 50%, red 50%);
+    background: -o-linear-gradient(left, red 50%, red 50%);
+    background: linear-gradient(to right, red 50%, red 50%);
 }
 
 .sc_button_hover_slide_top {
@@ -3453,12 +3453,12 @@ button,
 }
 
 .scheme_original .sc_button_hover_slide_top {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #d7a92b), color-stop(50%, #fec321));
-    background: -webkit-linear-gradient(top, #d7a92b 50%, #fec321 50%);
-    background: -moz-linear-gradient(top, #d7a92b 50%, #fec321 50%);
-    background: -ms-linear-gradient(top, #d7a92b 50%, #fec321 50%);
-    background: -o-linear-gradient(top, #d7a92b 50%, #fec321 50%);
-    background: linear-gradient(to bottom, #d7a92b 50%, #fec321 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, red), color-stop(50%, red));
+    background: -webkit-linear-gradient(top, red 50%, red 50%);
+    background: -moz-linear-gradient(top, red 50%, red 50%);
+    background: -ms-linear-gradient(top, red 50%, red 50%);
+    background: -o-linear-gradient(top, red 50%, red 50%);
+    background: linear-gradient(to bottom, red 50%, red 50%);
 }
 
 .sc_button_hover_slide_left:hover {
@@ -3474,11 +3474,11 @@ button,
 /* Blogger */
 
 .scheme_original .sc_blogger.layout_date .sc_blogger_item .sc_blogger_date {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_blogger.layout_date .sc_blogger_item .sc_blogger_date {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_blogger.layout_date .sc_blogger_item .sc_blogger_date {
@@ -3502,11 +3502,11 @@ button,
 }
 
 .scheme_original .sc_blogger.layout_polaroid .photostack nav span.current {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_blogger.layout_polaroid .photostack nav span.current.flip {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 /* Call to Action */
@@ -3520,7 +3520,7 @@ button,
 }
 
 .scheme_original .sc_call_to_action_accented {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_call_to_action_accented .sc_item_title,
@@ -3530,7 +3530,7 @@ button,
 }
 
 .scheme_original .sc_call_to_action_accented .sc_item_button>a {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_call_to_action_accented .sc_item_button>a {
@@ -3538,7 +3538,7 @@ button,
 }
 
 .scheme_original .sc_call_to_action_accented .sc_item_button>a:before {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_call_to_action_accented .sc_item_button>a:before {
@@ -3593,12 +3593,12 @@ button,
 }
 
 .scheme_original .sc_clients_style_clients-2 .sc_client_title a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_clients_style_clients-2 .sc_client_description:before,
 .scheme_original .sc_clients_style_clients-2 .sc_client_position {
-    color: #fec321;
+    color: red;
 }
 
 /* Contact form */
@@ -3667,7 +3667,7 @@ button,
 .scheme_original .sc_googlemap_content .sc_form .sc_form_message textarea:hover,
 .scheme_original .sc_googlemap_content .sc_form .sc_form_field input:focus,
 .scheme_original .sc_googlemap_content .sc_form .sc_form_message textarea:focus {
-    border-color: #d7a92b;
+    border-color: red;
 }
 
 /* picker */
@@ -3711,7 +3711,7 @@ button,
 }
 
 .scheme_original .sc_form table.picker__table th {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_form .picker__day--infocus {
@@ -3753,16 +3753,16 @@ button,
 .scheme_original .sc_form .picker__button--today:before,
 .scheme_original .sc_form .picker__button--clear:before,
 .scheme_original .sc_form button:focus {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_form .picker__button--close:before {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_form .picker--time .picker__button--clear:hover,
 .scheme_original .sc_form .picker--time .picker__button--clear:focus {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_form .picker__footer {
@@ -3871,7 +3871,7 @@ button,
 }
 
 .scheme_original .sc_countdown.sc_countdown_style_1 .sc_countdown_digits {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_countdown.sc_countdown_style_1 .sc_countdown_label {
@@ -3881,15 +3881,15 @@ button,
 /* Countdown Style 2 */
 
 .scheme_original .sc_countdown.sc_countdown_style_2 .sc_countdown_separator {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_countdown.sc_countdown_style_2 .sc_countdown_digits span {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_countdown.sc_countdown_style_2 .sc_countdown_label {
-    color: #fec321;
+    color: red;
 }
 
 /* Dropcaps */
@@ -3903,11 +3903,11 @@ button,
 }
 
 .scheme_original .sc_dropcaps.sc_dropcaps_style_2 .sc_dropcaps_item {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_dropcaps.sc_dropcaps_style_3 .sc_dropcaps_item {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_dropcaps.sc_dropcaps_style_4 .sc_dropcaps_item {
@@ -3925,12 +3925,12 @@ button,
 }
 
 .scheme_original .sc_events_item .sc_events_item_readmore span {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_events_item .sc_events_item_readmore:hover,
 .scheme_original .sc_events_item .sc_events_item_readmore:hover span {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .sc_events_style_events-1 .sc_events_item {
@@ -3946,7 +3946,7 @@ button,
 }
 
 .scheme_original .sc_events_style_events-2 .sc_events_item_date {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_events_style_events-2 .sc_events_item_date {
@@ -3961,13 +3961,13 @@ button,
 /* Google map */
 
 .scheme_original .sc_googlemap_content {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Highlight */
 
 .scheme_original .sc_highlight_style_1 {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_highlight_style_1 {
@@ -3975,7 +3975,7 @@ button,
 }
 
 .scheme_original .sc_highlight_style_2 {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_highlight_style_3 {
@@ -3995,17 +3995,17 @@ button,
 
 .scheme_original .sc_icon_hover:hover,
 .scheme_original a:hover .sc_icon_hover {
-    background-color: #fec321 !important;
+    background-color: red !important;
 }
 
 .scheme_original .sc_icon_shape_round.sc_icon,
 .scheme_original .sc_icon_shape_square.sc_icon {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_icon_shape_round.sc_icon,
 .scheme_original .sc_icon_shape_square.sc_icon {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_icon_shape_round.sc_icon,
@@ -4017,7 +4017,7 @@ button,
 .scheme_original .sc_icon_shape_square.sc_icon:hover,
 .scheme_original a:hover .sc_icon_shape_round.sc_icon,
 .scheme_original a:hover .sc_icon_shape_square.sc_icon {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_icon_shape_round.sc_icon:hover,
@@ -4032,7 +4032,7 @@ button,
 /* Infobox */
 
 .scheme_original .sc_infobox.sc_infobox_style_regular {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Intro */
@@ -4064,7 +4064,7 @@ button,
 }
 
 .scheme_original .sc_list_style_iconed li a:hover .sc_list_title {
-    color: #d7a92b;
+    color: red;
 }
 
 /* Line */
@@ -4084,7 +4084,7 @@ button,
 /* Matches */
 
 .scheme_original .match_block .player_country {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .match_block .player_country {
@@ -4104,7 +4104,7 @@ button,
 }
 
 .scheme_original .match_block .player_name a:hover {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .match_block .match_score {
@@ -4121,11 +4121,11 @@ button,
 
 .scheme_original .match_block .match_category a:hover,
 .scheme_original .match_block .match_date {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .post_item_colored .match_date {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .matches_hover>a:after {
@@ -4133,7 +4133,7 @@ button,
 }
 
 .scheme_original .sc_matches.style_matches-1 .sc_matches_next {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_matches.style_matches-1 .sc_matches_next {
@@ -4154,7 +4154,7 @@ button,
 }
 
 .scheme_original .sc_match_date {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .sc_matches.style_matches-2 .sc_match_info {
@@ -4162,7 +4162,7 @@ button,
 }
 
 .scheme_original .sc_matches.style_matches-2 .sc_matches_next .sc_item_title {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_matches.style_matches-2 .sc_matches_next .sc_match_date {
@@ -4172,7 +4172,7 @@ button,
 /* Players */
 
 .scheme_original .post_item_single_players .post_title:after {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .post_item_single_players .player_info span {
@@ -4185,11 +4185,11 @@ button,
 
 .scheme_original .sc_player .sc_player_info .sc_player_club,
 .scheme_original .sc_player .sc_player_info .sc_player_title a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_player .sc_player_info {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_player .sc_player_avatar .sc_player_hover {
@@ -4207,7 +4207,7 @@ button,
 }
 
 .scheme_original .post_item_colored .player_info {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_players_table table tr .country {
@@ -4241,7 +4241,7 @@ button,
 }
 
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_box_title {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_content,
@@ -4265,7 +4265,7 @@ button,
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_content_title span,
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_ingredients_title span,
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_nutritions_title span {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_nutritions_list li {
@@ -4274,7 +4274,7 @@ button,
 
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_nutritions_list li:before,
 .scheme_original .sc_menuitems_style_menuitems-2 .sc_menuitem_nutritions_list li span {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .popup_menuitem>.sc_menuitems_wrap {
@@ -4284,7 +4284,7 @@ button,
 /* Popup */
 
 .scheme_original .sc_popup:before {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Price */
@@ -4302,7 +4302,7 @@ button,
 /* Price block */
 
 .scheme_original .sc_price_block .sc_price_block_title {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_price_block_description ul li {
@@ -4319,7 +4319,7 @@ button,
 }
 
 .scheme_original .sc_price_block.sc_price_block_style_2 {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_price_block.sc_price_block_style_3 {
@@ -4331,7 +4331,7 @@ button,
 }
 
 .scheme_original .sc_price_block.sc_price_block_style_3 .sc_price_block_money * {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_price_block.sc_price_block_style_3 .sc_price_block_title {
@@ -4360,7 +4360,7 @@ button,
 }
 
 .scheme_original .sc_recent_news_header_category_item_more {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_recent_news_header_more_categories {
@@ -4426,7 +4426,7 @@ button,
 }
 
 .scheme_original .section_style_bordered_section {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .section_style_call_section {
@@ -4451,11 +4451,11 @@ button,
 }
 
 .scheme_original .section_style_call_section .sc_button:hover {
-    border-color: #fec321 !important;
+    border-color: red !important;
 }
 
 .scheme_original .section_style_call_section .sc_button:hover {
-    background-color: #fec321 !important;
+    background-color: red !important;
 }
 
 /*---LESS_SEPARATOR---*/
@@ -4467,12 +4467,12 @@ button,
 }
 
 .scheme_original .sc_services_item .sc_services_item_readmore span {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_services_item .sc_services_item_readmore:hover,
 .scheme_original .sc_services_item .sc_services_item_readmore:hover span {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .sc_services_style_services-1 .sc_services_item {
@@ -4485,12 +4485,12 @@ button,
 
 .scheme_original .sc_services_style_services-1 .sc_icon,
 .scheme_original .sc_services_style_services-2 .sc_icon {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_services_style_services-1 .sc_icon,
 .scheme_original .sc_services_style_services-2 .sc_icon {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_services_style_services-1 .sc_icon:hover,
@@ -4504,12 +4504,12 @@ button,
 .scheme_original .sc_services_style_services-1 a:hover .sc_icon,
 .scheme_original .sc_services_style_services-2 .sc_icon:hover,
 .scheme_original .sc_services_style_services-2 a:hover .sc_icon {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_services_style_services-3 a:hover .sc_icon,
 .scheme_original .sc_services_style_services-3 .sc_icon:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_services_style_services-3 a:hover .sc_icon,
@@ -4518,7 +4518,7 @@ button,
 }
 
 .scheme_original .sc_services_style_services-3 a:hover .sc_services_item_title {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_services_style_services-4 .sc_icon {
@@ -4526,7 +4526,7 @@ button,
 }
 
 .scheme_original .sc_services_style_services-4 .sc_icon {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_services_style_services-4 .sc_services_item_title {
@@ -4535,24 +4535,24 @@ button,
 
 .scheme_original .sc_services_style_services-4 a:hover .sc_icon,
 .scheme_original .sc_services_style_services-4 .sc_icon:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_services_style_services-4 a:hover .sc_services_item_title {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_services_style_services-5 .sc_icon {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_services_style_services-5 .sc_icon {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_services_style_services-5 .sc_icon:hover,
 .scheme_original .sc_services_style_services-5 a:hover .sc_icon {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_services_style_services-5 .sc_icon:hover,
@@ -4594,7 +4594,7 @@ button,
 /* Scroll controls */
 
 .scheme_original .sc_scroll_controls_wrap a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_scroll_controls_wrap a {
@@ -4610,11 +4610,11 @@ button,
 }
 
 .scheme_original .sc_scroll_controls_wrap a:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_scroll_bar .swiper-scrollbar-drag:before {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_scroll .sc_scroll_bar {
@@ -4628,11 +4628,11 @@ button,
 }
 
 .scheme_original .sc_skills_counter .sc_skills_item .sc_skills_icon {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_skills_counter .sc_skills_item:hover .sc_skills_icon {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .sc_skills_pie.sc_skills_compact_off .sc_skills_total,
@@ -4641,7 +4641,7 @@ button,
 }
 
 .scheme_original .sc_skills_bar .sc_skills_item .sc_skills_count {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_skills_legend_title,
@@ -4675,7 +4675,7 @@ button,
 .scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_3 .sc_skills_count,
 .scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_4 .sc_skills_count,
 .scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_4 .sc_skills_info {
-    background-color: #fec321;
+    background-color: red;
 }
 
 /* Slider */
@@ -4697,11 +4697,11 @@ button,
 }
 
 .scheme_original .sc_slider_controls_wrap a:hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_slider_controls_wrap a:hover {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_slider_swiper .sc_slider_pagination_wrap span {
@@ -4731,12 +4731,12 @@ button,
 
 .scheme_original .sc_slider_pagination_over .sc_slider_pagination_wrap span:hover,
 .scheme_original .sc_slider_pagination_over .sc_slider_pagination_wrap .swiper-pagination-bullet-active {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_slider_pagination_over .sc_slider_pagination_wrap span:hover,
 .scheme_original .sc_slider_pagination_over .sc_slider_pagination_wrap .swiper-pagination-bullet-active {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_slider_pagination_over .sc_slider_pagination .post_title {
@@ -4762,11 +4762,11 @@ button,
 }
 
 .scheme_original .sc_socials.sc_socials_type_icons a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_socials.sc_socials_type_icons a:hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_socials.sc_socials_type_icons.sc_socials_shape_round a {
@@ -4774,7 +4774,7 @@ button,
 }
 
 .scheme_original .sc_socials.sc_socials_type_icons.sc_socials_shape_round a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_socials.sc_socials_type_icons.sc_socials_shape_round a:hover {
@@ -4782,7 +4782,7 @@ button,
 }
 
 .scheme_original .sc_socials.sc_socials_type_icons.sc_socials_shape_round a:hover {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_socials.sc_socials_share.sc_socials_dir_vertical .sc_socials_item a {
@@ -4806,7 +4806,7 @@ button,
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.ui-state-active a,
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.sc_tabs_active a,
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a:hover {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_content,
@@ -4815,11 +4815,11 @@ button,
 }
 
 .scheme_original .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
@@ -4829,7 +4829,7 @@ button,
 .scheme_original .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a:hover,
 .scheme_original .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li.ui-state-active a,
 .scheme_original .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li.sc_tabs_active a {
-    color: #fec321;
+    color: red;
 }
 
 /*---LESS_SEPARATOR---*/
@@ -4841,19 +4841,19 @@ button,
 }
 
 .scheme_original .sc_team_item .sc_team_item_info .sc_team_item_title a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .inverse_colors .sc_team_item .sc_team_item_info .sc_team_item_title a {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .inverse_colors .sc_team_item .sc_team_item_info .sc_team_item_title a:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .sc_team_item .sc_team_item_info .sc_team_item_position {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .inverse_colors .sc_team_item .sc_team_item_info .sc_team_item_position {
@@ -4862,7 +4862,7 @@ button,
 
 .scheme_original .sc_team_style_team-1 .sc_team_item_info,
 .scheme_original .sc_team_style_team-3 .sc_team_item_info {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_team_style_team-1 .sc_team_item_info,
@@ -4903,11 +4903,11 @@ button,
 }
 
 .scheme_original .sc_team.sc_team_style_team-4 .sc_socials_item a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_team.sc_team_style_team-4 .sc_socials_item a:hover {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_team.sc_team_style_team-4 .sc_team_item_avatar .sc_team_item_hover {
@@ -4923,7 +4923,7 @@ button,
 }
 
 .scheme_original .sc_team_style_team-4 .sc_team_item_info .sc_team_item_title a:hover {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_team_style_team-4 .sc_team_item_info .sc_team_item_position {
@@ -4955,7 +4955,7 @@ button,
 
 .scheme_original .sc_testimonials_style_testimonials-3 .sc_testimonial_content p:first-child:before,
 .scheme_original .sc_testimonials_style_testimonials-3 .sc_testimonial_author_position {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_testimonials_style_testimonials-4 .sc_testimonial_item {
@@ -4964,17 +4964,17 @@ button,
 
 .scheme_original .sc_testimonials_style_testimonials-4 .sc_testimonial_content p:first-child:before,
 .scheme_original .sc_testimonials_style_testimonials-4 .sc_testimonial_author_position {
-    color: #fec321;
+    color: red;
 }
 
 /* Title */
 
 .scheme_original .sc_title_icon {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_title_underline::after {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_title_divider .sc_title_divider_before,
@@ -4997,11 +4997,11 @@ button,
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_title.ui-state-active {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_title.ui-state-active {
-    border-color: #fec321;
+    border-color: red;
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_title.ui-state-active .sc_toggles_icon_opened {
@@ -5009,19 +5009,19 @@ button,
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_title.ui-state-active .sc_toggles_icon_opened {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_title:hover {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_title:hover {
-    border-color: #d7a92b;
+    border-color: red;
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_title:hover .sc_toggles_icon_opened {
-    background-color: #d7a92b;
+    background-color: red;
 }
 
 .scheme_original .sc_toggles .sc_toggles_item .sc_toggles_content {
@@ -5048,20 +5048,20 @@ button,
 /* Common styles (title, subtitle and description for some shortcodes) */
 
 .scheme_original .sc_item_subtitle {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_item_title:after {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_item_title span:after,
 .scheme_original .sc_item_title span:before {
-    background-color: #fec321;
+    background-color: red;
 }
 
 .scheme_original .sc_item_button>a:before {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .sc_item_button>a:before {
@@ -5069,11 +5069,11 @@ button,
 }
 
 .scheme_original .sc_item_button>a:hover:before {
-    color: #d7a92b;
+    color: red;
 }
 
 .scheme_original .vc_row.inverse_colors .sc_item_title {
-    color: #fec321;
+    color: red;
 }
 
 .scheme_original .vc_row.inverse_colors .section_style_call_section .sc_item_title {

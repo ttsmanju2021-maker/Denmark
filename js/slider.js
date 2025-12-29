@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         delay: 4000,
         disableOnInteraction: false,
       },
-      speed: 6000,
+      speed: 5000,
       pagination: {
         el: ".services-sliderr .swiper-pagination",
         clickable: true,

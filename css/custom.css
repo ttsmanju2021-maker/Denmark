@@ -738,11 +738,11 @@ img.emoji {
 }
 
 .vc_custom_1475054487397 {
-    background-color: #fec321 !important;
+    background-color: red !important;
 }
 
 .vc_custom_1475050026958 {
-    background-color: #fec321 !important;
+    background-color: red !important;
 }
 
 .vc_custom_1475060512699 {
@@ -792,6 +792,9 @@ img.emoji {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     cursor: pointer;
+    background-color: red !important;
+    border: red !important;
+    color: #fff !important;
 }
 
 .margin_bottom_large.mw800 {
