@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Gravestone Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/formpage.css">
+    
+    <!--<< Favicon >>-->
+    <link rel="shortcut icon" href="img/fav.png">
+</head>
+<body>
+    <div class="main-container">
+        <!-- LEFT SIDEBAR -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo-img">
+                    </a>
+                </div>
+                <div class="subtitle">Create Your Memorial</div>
+            </div>
+
+            <div class="price-banner">
+                <span>Total price:</span>
+                <span class="price-amount"><span id="totalPrice">10,950</span> DKK</span>
+            </div>
+
+            <!-- NAVIGATION PILLS -->
+            <div class="nav-pills">
+                <button class="nav-pill active" onclick="showSection('stone')" data-section="stone">
+                    <span class="material-icons">category</span>
+                    Stone
+                </button>
+                <button class="nav-pill" onclick="showSection('title')" data-section="title">
+                    <span class="material-icons">workspace_premium</span>
+                    Title
+                </button>
+                <button class="nav-pill" onclick="showSection('names')" data-section="names">
+                    <span class="material-icons">person</span>
+                    Names
+                </button>
+                <button class="nav-pill" onclick="showSection('legacy')" data-section="legacy">
+                    <span class="material-icons">edit_note</span>
+                    Legacy
+                </button>
+                <button class="nav-pill" onclick="showSection('font')" data-section="font">
+                    <span class="material-icons">text_fields</span>
+                    Font
+                </button>
+                <button class="nav-pill" onclick="showSection('color')" data-section="color">
+                    <span class="material-icons">palette</span>
+                    Color
+                </button>
+                <button class="nav-pill" onclick="showSection('decoration')" data-section="decoration">
+                    <span class="material-icons">interests</span>
+                    Decoration
+                </button>
+            </div>
+
+            <div class="sidebar-content">
+                <div class="note-box">
+                    <strong>📌 NOTE</strong>
+                    The design on the stone is indicative. We will contact you if we have any questions.
+                </div>
+
+                <!-- STONE TYPE SECTION -->
+                <div class="section-content active" id="section-stone">
+                    <h3 class="section-heading">
+                        <span class="material-icons">category</span>
+                        Stone Type
+                    </h3>
+                    <div class="stone-list" id="stoneList"></div>
+                </div>
+
+                <!-- TITLE SECTION -->
+                <div class="section-content" id="section-title">
+                    <h3 class="section-heading">
+                        <span class="material-icons">workspace_premium</span>
+                        Title (Optional)
+                    </h3>
+                    <div class="checkbox-group" onclick="toggleTitle()">
+                        <input type="checkbox" id="includeTitle" onchange="toggleTitle()">
+                        <label for="includeTitle">Add Title</label>
+                        <span class="price-indicator">+550 DKK</span>
+                    </div>
+                    <div id="titleInput" style="display: none; margin-top: 15px;">
+                        <label>Title (e.g. "Baker")</label>
+                        <input type="text" id="titleText" placeholder="Enter title" oninput="updatePreview()">
+                    </div>
+                </div>
+
+                <!-- NAMES SECTION -->
+                <div class="section-content" id="section-names">
+                    <h3 class="section-heading">
+                        <span class="material-icons">person</span>
+                        Names
+                    </h3>
+                    <div id="personsContainer"></div>
+                    <button class="add-person" onclick="addPerson()">
+                        <span class="material-icons">add</span>
+                        Add Person
+                    </button>
+                </div>
+
+                <!-- LEGACY TEXT SECTION -->
+                <div class="section-content" id="section-legacy">
+                    <h3 class="section-heading">
+                        <span class="material-icons">edit_note</span>
+                        Legacy / Text
+                    </h3>
+                    <label>Personal text or quote</label>
+                    <textarea id="legacyText" placeholder="E.g. 'Loved and missed by all'" oninput="updatePreview()"></textarea>
+                </div>
+
+                <!-- FONT SECTION -->
+                <div class="section-content" id="section-font">
+                    <h3 class="section-heading">
+                        <span class="material-icons">text_fields</span>
+                        Font Style
+                    </h3>
+                    <div class="font-grid">
+                        <div class="font-option active" data-font="Cinzel" onclick="selectFont(this, 'Cinzel')">
+                            <div style="font-family: Cinzel;">Cinzel</div>
+                        </div>
+                        <div class="font-option" data-font="Playfair Display" onclick="selectFont(this, 'Playfair Display')">
+                            <div style="font-family: Playfair Display;">Playfair</div>
+                        </div>
+                        <div class="font-option" data-font="Cormorant Garamond" onclick="selectFont(this, 'Cormorant Garamond')">
+                            <div style="font-family: Cormorant Garamond;">Cormorant</div>
+                        </div>
+                        <div class="font-option" data-font="serif" onclick="selectFont(this, 'serif')">
+                            <div style="font-family: serif;">Times</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COLOR SECTION -->
+                <div class="section-content" id="section-color">
+                    <h3 class="section-heading">
+                        <span class="material-icons">palette</span>
+                        Text Color
+                    </h3>
+                    <div class="color-options">
+                        <div class="color-option active" style="background: #d4af37;" onclick="selectColor(this, '#d4af37')" title="Gold"></div>
+                        <div class="color-option" style="background: #c0c0c0;" onclick="selectColor(this, '#c0c0c0')" title="Silver"></div>
+                        <div class="color-option" style="background: #ffffff; border: 2px solid #ccc;" onclick="selectColor(this, '#ffffff')" title="White"></div>
+                        <div class="color-option" style="background: #000000;" onclick="selectColor(this, '#000000')" title="Black"></div>
+                    </div>
+                </div>
+
+                <!-- DECORATION SECTION -->
+                <div class="section-content" id="section-decoration">
+                    <h3 class="section-heading">
+                        <span class="material-icons">interests</span>
+                        Choose Decorations
+                    </h3>
+                    
+                    <div class="note-box">
+                        <strong>How to use:</strong>
+                        Click on a decoration to add it to the stone. Drag it to position. Use controls to rotate, mirror, and change color. You can add multiple decorations.
+                        <br><br>
+                        <strong>NOTE:</strong> Your design will be quality-assured by our graphic designer and stonemason before production.
+                    </div>
+
+                    <div class="decoration-list" id="decorationList"></div>
+
+                    <div id="activeDecorations" style="margin-top: 20px;"></div>
+                </div>
+
+                <!-- ACTION BUTTONS -->
+                <div class="action-buttons-fixed">
+                    <button class="btn btn-primary" onclick="saveToCart()">
+                        <span class="material-icons">shopping_cart</span>
+                        Save and Add to Cart
+                    </button>
+                    <button class="btn btn-secondary" onclick="downloadDesign()">
+                        <span class="material-icons">download</span>
+                        Download as Image
+                    </button>
+                    <button class="btn btn-secondary" onclick="resetDesign()">
+                        <span class="material-icons">refresh</span>
+                        Start Over
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT PREVIEW PANEL -->
+        <div class="preview-panel">
+            <!-- Help button -->
+            <button class="help-button" onclick="toggleHelp()">
+                <span class="material-icons">phone</span>
+                <span>Help?</span>
+            </button>
+            
+            <!-- Help popup -->
+            <div class="help-popup" id="helpPopup">
+                <button class="help-close" onclick="toggleHelp()">×</button>
+                <h3>Do you need help?</h3>
+                <p>You can always call us at</p>
+                <div class="help-phone">
+                    <span class="material-icons" style="color: var(--primary-gold);">phone</span>
+                    <a href="tel:+4522937383">+45 22 93 73 83</a>
+                </div>
+            </div>
+
+            <div class="preview-container">
+                <div class="stone-canvas-wrapper">
+                    <canvas id="stoneCanvas" width="1000" height="800"></canvas>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="js/formpage.js"></script>
+</body>
+</html>
