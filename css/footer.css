@@ -42,7 +42,7 @@
         }
 
         .section-subtitle {
-            color: #ff4757;
+            color: #fff;
             font-size: 25px;
             font-weight: 500;
             letter-spacing: 2px;
@@ -523,5 +523,100 @@
             
             .sc_services_item img {
                 height: 200px;
+            }
+        }
+
+
+          /* GRID CONTAINER */
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            padding: 60px 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* SERVICES */
+        .sc_services_item {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(148, 163, 184, 0.25);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sc_services_item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .sc_services_item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .sc_services_item_content {
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sc_services_item_title {
+            margin-bottom: 15px;
+        }
+
+        .sc_services_item_title a {
+            text-decoration: none;
+            color: #222;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+        .sc_services_item_content p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .sc_button {
+            display: inline-block;
+            margin-top: auto;
+            padding: 10px 18px;
+            background: #2c5f8d;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+            transition: background 0.3s ease;
+        }
+
+        .sc_button:hover {
+            background: #1e4266;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+                padding: 40px 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sc_services_item img {
+                height: 250px;
             }
         }

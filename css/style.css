@@ -3955,6 +3955,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
     -ms-transition: all ease .3s;
     -o-transition: all ease .3s;
     transition: all ease .3s;
+    
 }
 
 .open_child_menu:hover {
@@ -3964,8 +3965,8 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 }
 
 .open_child_menu:before {
-    content: '\e828';
-    font-family: fontello;
+    content: "\f078"; /* fa-chevron-down */
+    font-family: "Font Awesome 6 Free";
 }
 
 li.opened>a>.open_child_menu:before {
