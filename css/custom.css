@@ -59,7 +59,7 @@ img.emoji {
 }
 
 .blog-yumprint-recipe .blog-yumprint-recipe-summary,
-.blog-yumprint-recipe .blog-yumprint-ingredient-item,
+.blog-yumprint-recipe .blog-yumprint-ing#e12c2cient-item,
 .blog-yumprint-recipe .blog-yumprint-method-item,
 .blog-yumprint-recipe .blog-yumprint-note-item,
 .blog-yumprint-write-review,
@@ -146,7 +146,7 @@ img.emoji {
 }
 
 .blog-yumprint-recipe .blog-yumprint-recipe-summary,
-.blog-yumprint-recipe .blog-yumprint-ingredients,
+.blog-yumprint-recipe .blog-yumprint-ing#e12c2cients,
 .blog-yumprint-recipe .blog-yumprint-methods,
 .blog-yumprint-recipe .blog-yumprint-notes,
 .blog-yumprint-write-review,
@@ -738,11 +738,11 @@ img.emoji {
 }
 
 .vc_custom_1475054487397 {
-    background-color: red !important;
+    background-color: #e12c2c !important;
 }
 
 .vc_custom_1475050026958 {
-    background-color: red !important;
+    background-color: #e12c2c !important;
 }
 
 .vc_custom_1475060512699 {
@@ -792,8 +792,8 @@ img.emoji {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     cursor: pointer;
-    background-color: red !important;
-    border: red !important;
+    background-color: #e12c2c !important;
+    border: #e12c2c !important;
     color: #fff !important;
 }
 

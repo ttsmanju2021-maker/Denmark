@@ -51,7 +51,7 @@
     }
 
     .loading-subtext {
-      color: red;
+      color: #e12c2c;
       font-size: 18px;
       text-align: center;
     }
@@ -1242,7 +1242,7 @@
     }
 
     .cookie-header {
-      background: red;
+      background: #e12c2c;
       color: white;
       padding: 30px;
       border-radius: 20px 20px 0 0;
@@ -1306,7 +1306,7 @@
     .details-toggle {
       width: 100%;
       padding: 12px;
-      background: red !important;
+      background: #e12c2c !important;
       border: none;
       border-radius: 8px;
       display: flex;
