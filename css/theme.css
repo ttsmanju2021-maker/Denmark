@@ -3342,7 +3342,7 @@ button,
 .scheme_original input[type="button"],
 .scheme_original button,
 .scheme_original .sc_button.sc_button_style_filled {
-    color: #231f20;
+    color: #fff;
 }
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print:hover,
@@ -3357,7 +3357,7 @@ button,
 
 .scheme_original .blog-yumprint-recipe .blog-yumprint-header div.blog-yumprint-print:hover,
 .scheme_original body .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a:hover {
-    color: #231f20 !important;
+    color: #fff !important;
 }
 
 .scheme_original input[type="submit"]:not([class*="sc_button_hover_"]):hover,
@@ -3366,6 +3366,7 @@ button,
 .scheme_original button:not([class*="sc_button_hover_"]):hover,
 .scheme_original .sc_button.sc_button_style_filled:not([class*="sc_button_hover_"]):hover {
     background-color: red;
+    color: #fff !important;
 }
 
 .scheme_original input[type="submit"]:not([class*="sc_button_hover_"]):hover,
@@ -4456,6 +4457,7 @@ button,
 
 .scheme_original .section_style_call_section .sc_button:hover {
     background-color: red !important;
+    color: #fff !important;
 }
 
 /*---LESS_SEPARATOR---*/
