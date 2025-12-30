@@ -125,7 +125,7 @@
             align-items: center;
             justify-content: center;
             border-radius: 50%;
-            background: e12c2c;
+            background: #e12c2c;
             box-shadow: 0 10px 30px rgba(255, 71, 87, 0.3);
             transition: all 0.4s;
         }
