@@ -342,12 +342,12 @@
                                             <div class="wpb_wrapper">
 
                                                 <!-- SLIDER START -->
+                                  
 
-                                                <div class="swiper services-sliderr">
-                                                    <div class="swiper-wrapper">
-                                                        <!-- SLIDE 1 - Contains 6 items in 3x2 grid -->
+                                                <div class="services-grid">
+                                                      
                                                         <div class="swiper-slide">
-                                                            <div class="slide-grid">
+                                                            <!-- <div class="slide-grid"> -->
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z1.jpg" alt="Gravestone 1">
                                                                     <div class="sc_services_item_content">
@@ -369,6 +369,9 @@
                                                                        
                                                                     </div>
                                                                 </div>
+                                                        </div>
+
+                                                         <div class="swiper-slide">
 
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z2.jpg" alt="Gravestone 2">
@@ -390,6 +393,9 @@
                                                                         
                                                                     </div>
                                                                 </div>
+                                                                </div>
+
+                                                                 <div class="swiper-slide">
 
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z3.png" alt="Gravestone 3">
@@ -410,6 +416,9 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                                </div>
+
+                                                                <div class="swiper-slide">
 
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z4.jpg" alt="Gravestone 4">
@@ -430,7 +439,9 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                                </div>
 
+                                                                <div class="swiper-slide">
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z5.jpg" alt="Gravestone 5">
                                                                     <div class="sc_services_item_content">
@@ -450,8 +461,10 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                                </div>
 
-                                                                <div class="sc_services_item">
+                                                                <div class="swiper-slide">
+                                                                    <div class="sc_services_item">
                                                                     <img src="img/z6.png" alt="Gravestone 6">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
@@ -470,12 +483,12 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
+                                                                </div>
+                                                      
 
                                                         <!-- SLIDE 2 - Contains next 4 items in 3x2 grid -->
                                                         <div class="swiper-slide">
-                                                            <div class="slide-grid">
+                                                            <!-- <div class="slide-grid"> -->
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z7.jpg" alt="Gravestone 7">
                                                                     <div class="sc_services_item_content">
@@ -495,6 +508,9 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                        </div>
+
+                                                         <div class="swiper-slide">
 
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z8.jpg" alt="Gravestone 8">
@@ -515,6 +531,8 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                         </div>
+                                                          <div class="swiper-slide">
 
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z9.jpg" alt="Gravestone 9">
@@ -535,6 +553,9 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                          </div>
+
+                                                           <div class="swiper-slide">
 
                                                                 <div class="sc_services_item">
                                                                     <img src="img/z10.jpg" alt="Gravestone 10">
@@ -555,6 +576,9 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                           </div>
+
+                                                            <div class="swiper-slide">
                                                                 <div class="sc_services_item">
                                                                     <img src="img/u1.jpg" alt="Gravestone 10">
                                                                     <div class="sc_services_item_content">
@@ -574,6 +598,9 @@
                                                                              Start Designer </button>
                                                                     </div>
                                                                 </div>
+                                                            </div>
+
+                                                             <div class="swiper-slide">
                                                                 <div class="sc_services_item">
                                                                     <img src="img/u2.png" alt="Gravestone 10">
                                                                     <div class="sc_services_item_content">
@@ -595,7 +622,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    <!-- </div> -->
 
                                                 </div>
                                                 <!-- SLIDER END -->
@@ -606,15 +633,10 @@
                                 </div>
                                 <!-- checkout popup -->
       <div>
-        <!-- Loading Animation -->
-        <!-- <div class="loading-container" id="loadingContainer">
-          <div class="loading-spinner"></div>
-          <div class="loading-text">Loading</div>
-          <div class="loading-subtext">Please wait...</div>
-        </div> -->
-        <div class="bg-animation">
+      
+        <!-- <div class="bg-animation">
          <div class="bg-gradient"></div>
-       </div>
+       </div> -->
 
         <!-- Your Loading Container with Premium Animation -->
   <div id="loadingContainer">
@@ -1105,129 +1127,8 @@
     
   <script src="js/cart.js"></script>
   <script src="js/checkoutpopup.js"></script>
-    <script>
-    // Optional: Add percentage counter
-    let percent = 0;
-    let percentInterval;
-
-    // Start percentage counter when loading is shown
-    function startPercentageCounter() {
-      percent = 0;
-      percentInterval = setInterval(() => {
-        percent = (percent + 1) % 101;
-        const percentElement = document.querySelector('.percentage');
-        if (percentElement) {
-          percentElement.textContent = percent + '%';
-        }
-      }, 15);
-    }
-
-    // Stop percentage counter
-    function stopPercentageCounter() {
-      if (percentInterval) {
-        clearInterval(percentInterval);
-      }
-    }
-
-    // YOUR EXISTING JAVASCRIPT FUNCTIONS
-
-    // This function should be called from your existing "Start Design" button
-    function goToPopup() {
-      // Show loading animation
-      document.getElementById('loadingContainer').style.display = 'flex';
-      startPercentageCounter();
-
-      // After 1.5 seconds, hide loading and show cookie popup
-      setTimeout(() => {
-        document.getElementById('loadingContainer').style.display = 'none';
-        stopPercentageCounter();
-        document.getElementById('cookieOverlay').classList.add('show');
-      }, 1500);
-    }
-
-    // Toggle cookie details
-    function toggleDetails() {
-      const content = document.getElementById('detailsContent');
-      const icon = document.getElementById('detailsIcon');
-      const text = document.getElementById('detailsText');
-
-      if (content) content.classList.toggle('active');
-
-      if (content && content.classList.contains('active')) {
-        if (icon) icon.textContent = '⮙';
-        if (text) text.textContent = 'Hide Details';
-      } else {
-        if (icon) icon.textContent = '▽';
-        if (text) text.textContent = 'Show Details';
-      }
-    }
-
-    // Close popup - close icon clicked
-    function closePopup() {
-      const overlay = document.getElementById('cookieOverlay');
-      if (overlay) overlay.classList.remove('show');
-      console.log('Popup closed');
-    }
-
-    // Show success message
-    function showSuccessMessage() {
-      const msg = document.getElementById('successMessage');
-      if (msg) {
-        msg.classList.add('show');
-        setTimeout(() => {
-          msg.classList.remove('show');
-        }, 3000);
-      }
-    }
-
-    // Accept All - redirect to formpage
-    function acceptAll() {
-      const performance = document.getElementById('performance');
-      const targeting = document.getElementById('targeting');
-      const functionality = document.getElementById('functionality');
-      
-      if (performance) performance.checked = true;
-      if (targeting) targeting.checked = true;
-      if (functionality) functionality.checked = true;
-
-      console.log('Accepted all cookies - redirecting to form page');
-
-      // Close popup
-      const overlay = document.getElementById('cookieOverlay');
-      if (overlay) overlay.classList.remove('show');
-
-      // Show success message
-      showSuccessMessage();
-
-      // Show loading animation
-      document.getElementById('loadingContainer').style.display = 'flex';
-      startPercentageCounter();
-
-      // Redirect to formpage after loading animation
-      setTimeout(() => {
-        window.location.href = 'formpage.html';
-      }, 1000);
-    }
-
-    // Reject All - close popup
-    function rejectAll() {
-      const performance = document.getElementById('performance');
-      const targeting = document.getElementById('targeting');
-      const functionality = document.getElementById('functionality');
-      
-      if (performance) performance.checked = false;
-      if (targeting) targeting.checked = false;
-      if (functionality) functionality.checked = false;
-
-      console.log('Rejected cookies - popup closed');
-
-      // Close popup
-      const overlay = document.getElementById('cookieOverlay');
-      if (overlay) overlay.classList.remove('show');
-      
-      showSuccessMessage();
-    }
-  </script>
+  <script src="js/loadinganimation.js"></script>
+   
 </body>
 
 </html>
