@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granite Stone Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+   <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+     <!--<< Favicon >>-->
+  <link rel="shortcut icon" href="img/fav.png">
+
+</head>
+<body>
+    <div class="container">
+        <div class="cart-section">
+            <h2><i class="zmdi zmdi-shopping-cart"></i> Your Cart</h2>
+            
+            <div class="stone-card">
+                <img src="img/granite-1.jpg" alt="Heart Polished Stone" class="stone-image">
+                
+                <div class="stone-details">
+                    <div class="stone-info">
+                        <div class="stone-name">
+                            <i class="zmdi zmdi-favorite"></i>
+                            Heart VW Polished
+                        </div>
+                        <div class="stone-price">
+                            <i class="zmdi zmdi-money"></i> 10,900 kr.
+                        </div>
+                    </div>
+
+                   
+                    <div class="btn-group">
+                        <button class="btn btn-primary">
+                            <i class="zmdi zmdi-download"></i>
+                            <span>Download Image</span>
+                        </button>
+                        <button class="btn btn-secondary">
+                            <i class="zmdi zmdi-edit"></i>
+                            <span>Edit Stone</span>
+                        </button>
+                        <button class="btn btn-danger">
+                            <i class="zmdi zmdi-delete"></i>
+                            <span>Remove from Cart</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="stone-card">
+                <img src="img/granite-3.jpg" alt="Heart Polished Stone" class="stone-image">
+                
+                <div class="stone-details">
+                    <div class="stone-info">
+                        <div class="stone-name">
+                            <i class="zmdi zmdi-favorite"></i>
+                            Heart VW Polished
+                        </div>
+                        <div class="stone-price">
+                            <i class="zmdi zmdi-money"></i> 10,900 kr.
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="btn-group">
+                        <button class="btn btn-primary">
+                            <i class="zmdi zmdi-download"></i>
+                            <span>Download Image</span>
+                        </button>
+                        <button class="btn btn-secondary">
+                            <i class="zmdi zmdi-edit"></i>
+                            <span>Edit Stone</span>
+                        </button>
+                        <button class="btn btn-danger">
+                            <i class="zmdi zmdi-delete"></i>
+                            <span>Remove from Cart</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2><i class="zmdi zmdi-account-circle"></i> Your Information</h2>
+            
+            <div class="nav-pills">
+                <button class="nav-pill active" onclick="switchTab(event, 'personal')">
+                    <i class="zmdi zmdi-account"></i>
+                    Personal Info
+                </button>
+                <button class="nav-pill" onclick="switchTab(event, 'delivery')">
+                    <i class="zmdi zmdi-truck"></i>
+                    Delivery
+                </button>
+            </div>
+
+            <div id="personal" class="tab-content active">
+                <div class="form-group">
+                    <label><i class="zmdi zmdi-email"></i> Email address*</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label><i class="zmdi zmdi-phone"></i> Telephone*</label>
+                    <input type="tel" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label><i class="zmdi zmdi-account"></i> First name*</label>
+                        <input type="text" placeholder="First name" required>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="zmdi zmdi-account"></i> Surname*</label>
+                        <input type="text" placeholder="Surname" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label><i class="zmdi zmdi-home"></i> Address*</label>
+                    <input type="text" placeholder="Street address" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label><i class="zmdi zmdi-city"></i> Town*</label>
+                        <input type="text" placeholder="Town" required>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="zmdi zmdi-pin"></i> Post no.*</label>
+                        <input type="text" placeholder="Post code" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label><i class="zmdi zmdi-comment-text"></i> Comment</label>
+                    <textarea placeholder="Add any special instructions or comments"></textarea>
+                </div>
+            </div>
+
+            <div id="delivery" class="tab-content">
+                <div class="delivery-options">
+                    <h3><i class="zmdi zmdi-truck"></i> Choose Delivery</h3>
+                    
+                    <div class="radio-group">
+                        <input type="radio" name="delivery" id="same" checked>
+                        <label for="same"><i class="zmdi zmdi-check-circle"></i> Same address as billing information</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" name="delivery" id="cemetery">
+                        <label for="cemetery"><i class="zmdi zmdi-flower"></i> At the Cemetery</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" name="delivery" id="installation">
+                        <label for="installation"><i class="zmdi zmdi-settings"></i> Delivery to cemetery with installation</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" name="delivery" id="pickup">
+                        <label for="pickup"><i class="zmdi zmdi-store"></i> Pick up at online-gravsten.dk</label>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label><i class="zmdi zmdi-pin-drop"></i> Cemetery + Gravesite number*</label>
+                        <input type="text" placeholder="Enter cemetery and gravesite number">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(event, tabName) {
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            const pills = document.querySelectorAll('.nav-pill');
+            pills.forEach(pill => {
+                pill.classList.remove('active');
+            });
+
+            document.getElementById(tabName).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
