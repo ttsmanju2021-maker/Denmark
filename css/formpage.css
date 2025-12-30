@@ -5,8 +5,8 @@
 }
 
 :root {
-    --primary-gold: #d4af37;
-    --dark-gold: #b8941f;
+    --primary-gold: red;
+    --dark-gold: red;
     --stone-dark: #2c3e50;
     --stone-light: #34495e;
 }
@@ -641,7 +641,7 @@ textarea {
     position: fixed;
     top: 20px;
     right: 20px;
-    background: linear-gradient(135deg, #b8941f 0%, #d4af37 100%);
+    background: red;
     color: white;
     border: none;
     padding: 12px 24px;
