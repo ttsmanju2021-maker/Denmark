@@ -1,34 +1,30 @@
 
+        /* Reset for checkout section */
+        .page_content_wrap.page_paddings_no {
+            padding: 0 !important;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        body {
-            font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+        .page_content_wrap {
             background: linear-gradient(165deg, #f8f9fa 0%, #e9ecef 50%, #dee2e6 100%);
             min-height: 100vh;
-            padding: 60px 20px;
+            width: 100%;
+        }
+
+        .page-wrapper{
+            font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            padding: 40px 20px;
             position: relative;
             line-height: 1.6;
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
         }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: 
-                radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: 0;
-        }
-
-       
 
         @keyframes fadeInDown {
             from {
@@ -41,22 +37,22 @@
             }
         }
 
-       
-
-        .container {
-            max-width: 1400px;
+        .checkout-container {
+            max-width: 1200px;
             margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 40px;
+            gap: 30px;
             position: relative;
             z-index: 1;
+            width: 100%;
+            padding: 0 20px;
         }
 
         .form-section, .cart-section {
             background: white;
-            border-radius: 24px;
-            padding: 40px;
+            border-radius: 20px;
+            padding: 30px;
             box-shadow: 
                 0 1px 3px rgba(0, 0, 0, 0.05),
                 0 10px 40px rgba(0, 0, 0, 0.08);
@@ -65,6 +61,7 @@
             overflow: hidden;
             animation: slideInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1);
             transition: all 0.3s ease;
+            width: 100%;
         }
 
         @keyframes slideInUp {
@@ -86,8 +83,8 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            margin-bottom: 32px;
-            padding-bottom: 20px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
             border-bottom: 2px solid #f1f5f9;
             position: relative;
         }
@@ -130,8 +127,6 @@
             }
         }
 
-     
-
         @keyframes rippleEffect {
             0% {
                 width: 30px;
@@ -146,13 +141,12 @@
         }
 
         .section-header h2 {
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 700;
             color: #1e293b;
             margin: 0;
         }
 
-        /* Professional Navigation Pills */
         .nav-pills {
             display: flex;
             gap: 8px;
@@ -224,7 +218,6 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* Professional Form Styling */
         .form-group {
             margin-bottom: 24px;
         }
@@ -280,7 +273,6 @@
             min-height: 110px;
         }
 
-        /* Professional Delivery Options */
         .delivery-options {
             background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
             padding: 28px;
@@ -338,12 +330,11 @@
             color: #475569;
         }
 
-        /* Professional Stone Cards */
         .stone-card {
             background: white;
-            border-radius: 20px;
+            border-radius: 16px;
             overflow: hidden;
-            margin-bottom: 28px;
+            margin-bottom: 20px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             border: 1px solid #e2e8f0;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -357,7 +348,7 @@
         .stone-image-container {
             position: relative;
             overflow: hidden;
-            height: 280px;
+            height: 220px;
             background: #f1f5f9;
         }
 
@@ -386,7 +377,7 @@
         }
 
         .stone-details {
-            padding: 28px;
+            padding: 20px;
         }
 
         .stone-info {
@@ -397,21 +388,21 @@
         }
 
         .stone-name {
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 700;
             color: #1e293b;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
         }
 
         .stone-name i {
             color: #ec4899;
-            font-size: 24px;
+            font-size: 20px;
         }
 
         .stone-price {
-            font-size: 26px;
+            font-size: 22px;
             font-weight: 800;
             background: linear-gradient(135deg, #e12c2c 0%, #ff6666 100%);
             -webkit-background-clip: text;
@@ -449,7 +440,6 @@
             font-weight: 700;
         }
 
-        /* Professional Buttons */
         .btn-group {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -527,7 +517,6 @@
             box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
         }
 
-        /* Cart Summary */
         .cart-summary {
             background: #e12c2c;
             border-radius: 16px;
@@ -573,29 +562,25 @@
             box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
         }
 
-        /* Responsive Design */
         @media (max-width: 1200px) {
-            .container {
+            .checkout-container {
                 grid-template-columns: 1fr;
+                max-width: 800px;
             }
-            
-          
         }
 
         @media (max-width: 768px) {
-            body {
-                padding: 30px 15px;
+            .page-wrapper {
+                padding: 20px 15px;
             }
 
-           
-
             .form-section, .cart-section {
-                padding: 24px;
-                border-radius: 20px;
+                padding: 20px;
+                border-radius: 16px;
             }
 
             .section-header h2 {
-                font-size: 24px;
+                font-size: 20px;
             }
 
             .form-row {
@@ -611,7 +596,6 @@
             }
         }
 
-        /* Loading Animation */
         @keyframes shimmer {
             0% { background-position: -1000px 0; }
             100% { background-position: 1000px 0; }

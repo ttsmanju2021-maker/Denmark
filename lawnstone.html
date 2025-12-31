@@ -64,7 +64,7 @@
                             </div>
                             <div class="contact_field contact_cart">
                                 <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
-                                    <span class="contact_icon ">
+                                    <span class="contact_icon "onclick="goToCart()">
                                         <i class="fa-solid fa-cart-shopping"></i>
                                     </span>
                                     <span class="contact_label contact_cart_label">cart:</span>
@@ -1002,6 +1002,11 @@
     <script src="js/cart.js"></script>
   <script src="js/checkoutpopup.js"></script>
   <script src="js/loadinganimation.js"></script>
+  <script>
+    function goToCart() {
+      window.location.href = 'cartpage.html';
+    }
+  </script>
 
 
 </body>

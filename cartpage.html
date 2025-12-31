@@ -1,213 +1,452 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" class="scheme_original">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Granite Stone Cart - Premium Memorial Stones</title>
+    <title>Showroom &#8211; Granitworld</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Average|Droid+Serif:400,700|Libre+Baskerville:400,400i,700|Open+Sans:300,400,600,700,800|Oswald:300,400,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext'
+        type='text/css' media='all' />
+    <link rel='stylesheet' href='css/layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/revslider/settings.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce-layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce-smallscreen.css' type='text/css'
+        media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.animation.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/theme.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/plugin.woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/comp/comp.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/swiper/swiper.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/checkoutpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="shortcut icon" href="img/fav.png">
     <link rel="stylesheet" href="css/cart.css">
-
-   
+    
 </head>
-<body>
 
-    <div class="container">
-        <div class="cart-section">
-            <div class="section-header">
-                <i class="zmdi zmdi-shopping-cart"></i>
-                <h2>Shopping Cart</h2>
-            </div>
+<body
+    class="index home page body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
+
+    <div class="body_wrap">
+        <div class="page_wrap">
+            <div class="top_panel_fixed_wrap"></div>
             
-            <div class="stone-card">
-                <div class="stone-image-container">
-                    <img src="img/granite-1.jpg" alt="Heart Polished Stone" class="stone-image">
-                    <div class="stone-badge">Premium Quality</div>
-                </div>
-                
-                <div class="stone-details">
-                    <div class="stone-info">
-                        <div class="stone-name">
-                            <i class="zmdi zmdi-favorite"></i>
-                            Heart VW Polished
+            <!-- HEADER START -->
+            <header class="top_panel_wrap top_panel_style_4 scheme_original">
+                <div class="top_panel_wrap_inner top_panel_inner_style_4 top_panel_position_above">
+                    <div class="top_panel_middle">
+                        <div class="content_wrap">
+                            <div class="contact_logo">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" class="logo_main" alt="" width="239" height="59">
+                                        <img src="img/logo.png" class="logo_fixed" alt="" width="239" height="59">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact_field contact_cart">
+                                <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
+                                     <span class="contact_icon "onclick="goToCart()">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    <span class="contact_label contact_cart_label">cart:</span>
+                                    <span class="contact_cart_totals">
+                                        <span class="cart_items">0 Items</span>
+                                        <span class="cart_summa">&#36;0.00</span>
+                                    </span>
+                                </a>
+                                <ul class="widget_area sidebar_cart sidebar">
+                                    <li>
+                                        <div class="widget woocommerce widget_shopping_cart">
+                                            <div class="hide_cart_widget_if_empty">
+                                                <div class="widget_shopping_cart_content">
+                                                    <p class="woocommerce-mini-cart__empty-message">No products in the
+                                                        cart.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu_main_wrap">
+                                <nav class="menu_main_nav_area menu_hover_fade">
+                                    <ul id="menu_main" class="menu_main_nav">
+                                        <li
+                                            class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                            <a href="tombstone.html"><span>Tombstone</span></a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a
+                                                href="urnstone.html"><span>Urnstone</span></a>
+                                        </li>
+                                        <li class="menu-item"><a href="lawnstone.html"><span> Lawn Stones</span></a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a
+                                                href="otherstone.html"><span>OtherStone</span></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="father_mother_stone.html"><span>Father
+                                                            Mother Stones</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a href="vase.html"><span> Decorations, Vases/
+                                                    Birdbaths</span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
-                        <div class="stone-price">
-                            10,900 kr.
-                        </div>
-                    </div>
-
-                    <div class="extra-option">
-                        <span><i class="zmdi zmdi-edit"></i> Room for extra name</span>
-                        <span>Not added</span>
-                    </div>
-
-                    <div class="btn-group">
-                        <button class="btn btn-primary">
-                            <i class="zmdi zmdi-download"></i>
-                            Download
-                        </button>
-                        <button class="btn btn-secondary">
-                            <i class="zmdi zmdi-edit"></i>
-                            Edit
-                        </button>
-                        <button class="btn btn-danger">
-                            <i class="zmdi zmdi-delete"></i>
-                            Remove
-                        </button>
                     </div>
                 </div>
-            </div>
-
-            <div class="stone-card">
-                <div class="stone-image-container">
-                    <img src="img/granite-2.jpg" alt="Heart Polished Stone" class="stone-image">
-                    <div class="stone-badge">Premium Quality</div>
-                </div>
-                
-                <div class="stone-details">
-                    <div class="stone-info">
-                        <div class="stone-name">
-                            <i class="zmdi zmdi-favorite"></i>
-                            Heart VW Polished
-                        </div>
-                        <div class="stone-price">
-                            10,900 kr.
-                        </div>
-                    </div>
-
-                    <div class="extra-option">
-                        <span><i class="zmdi zmdi-edit"></i> Room for extra name</span>
-                        <span>Not added</span>
-                    </div>
-
-                    <div class="btn-group">
-                        <button class="btn btn-primary">
-                            <i class="zmdi zmdi-download"></i>
-                            Download
-                        </button>
-                        <button class="btn btn-secondary">
-                            <i class="zmdi zmdi-edit"></i>
-                            Edit
-                        </button>
-                        <button class="btn btn-danger">
-                            <i class="zmdi zmdi-delete"></i>
-                            Remove
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cart-summary">
-                <div class="cart-summary-row">
-                    <span>Subtotal (2 items)</span>
-                    <span>21,800 kr.</span>
-                </div>
-                <div class="cart-summary-row">
-                    <span>Shipping</span>
-                    <span>Calculated at checkout</span>
-                </div>
-                <div class="cart-summary-row total">
-                    <span>Total</span>
-                    <span>21,800 kr.</span>
-                </div>
-                <button class="checkout-btn">
-                    Proceed to Checkout
-                </button>
-            </div>
-        </div>
-
-        <div class="form-section">
-            <div class="section-header">
-                <i class="zmdi zmdi-account-circle"></i>
-                <h2>Customer Information</h2>
-            </div>
+            </header>
             
-            <div class="nav-pills">
-                <button class="nav-pill active" onclick="switchTab(event, 'personal')">
-                    <i class="zmdi zmdi-account"></i>
-                    Personal Details
-                </button>
-                <button class="nav-pill" onclick="switchTab(event, 'delivery')">
-                    <i class="zmdi zmdi-truck"></i>
-                    Delivery Options
-                </button>
+            <!-- MOBILE HEADER -->
+            <div class="header_mobile">
+                <div class="content_wrap">
+                    <div class="menu_button icon-menu"></div>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" class="logo_main" alt="" width="239" height="59">
+                        </a>
+                    </div>
+                </div>
+                <div class="side_wrap">
+                    <div class="close">Close</div>
+                    <div class="panel_top">
+                        <nav class="menu_main_nav_area">
+                            <ul id="menu_mobile" class="menu_main_nav">
+                                <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                    <a href="#"><span>Home</span></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item current-menu-item"><a href="index.html"><span>Homepage
+                                                    1</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children"><a href="#"><span>About us</span></a>
+                                </li>
+                                <li class="menu-item"><a href="farm.html"><span>Farm</span></a></li>
+                                <li class="menu-item menu-item-has-children"><a href="#"><span>Blog</span></a>
+                                </li>
+                                <li class="menu-item"><a href="shop.html"><span>Products</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="panel_bottom">
+                    </div>
+                </div>
+                <div class="mask"></div>
+            </div>
+            <!-- HEADER END -->
+
+            <!-- YOUR CONTENT GOES HERE -->
+            <div class="page_content_wrap page_paddings_no">
+                <div class="page-wrapper">
+                    <div class="checkout-container">
+                    <div class="cart-section">
+                        <div class="section-header">
+                            <i class="zmdi zmdi-shopping-cart"></i>
+                            <h2>Shopping Cart</h2>
+                        </div>
+                        
+                        <div class="stone-card">
+                            <div class="stone-image-container">
+                                <img src="img/granite-1.jpg" alt="Heart Polished Stone" class="stone-image">
+                                <div class="stone-badge">Premium Quality</div>
+                            </div>
+                            
+                            <div class="stone-details">
+                                <div class="stone-info">
+                                    <div class="stone-name">
+                                        <i class="zmdi zmdi-favorite"></i>
+                                        Heart VW Polished
+                                    </div>
+                                    <div class="stone-price">
+                                        10,900 kr.
+                                    </div>
+                                </div>
+
+                                <!-- <div class="extra-option">
+                                    <span><i class="zmdi zmdi-edit"></i> Room for extra name</span>
+                                    <span>Not added</span>
+                                </div> -->
+
+                                <div class="btn-group">
+                                    <button class="btn btn-primary">
+                                        <i class="zmdi zmdi-download"></i>
+                                        Download
+                                    </button>
+                                    <button class="btn btn-secondary">
+                                        <i class="zmdi zmdi-edit"></i>
+                                        Edit
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="zmdi zmdi-delete"></i>
+                                        Remove
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="stone-card">
+                            <div class="stone-image-container">
+                                <img src="img/granite-2.jpg" alt="Heart Polished Stone" class="stone-image">
+                                <div class="stone-badge">Premium Quality</div>
+                            </div>
+                            
+                            <div class="stone-details">
+                                <div class="stone-info">
+                                    <div class="stone-name">
+                                        <i class="zmdi zmdi-favorite"></i>
+                                        Heart VW Polished
+                                    </div>
+                                    <div class="stone-price">
+                                        10,900 kr.
+                                    </div>
+                                </div>
+
+                            
+
+                                <div class="btn-group">
+                                    <button class="btn btn-primary">
+                                        <i class="zmdi zmdi-download"></i>
+                                        Download
+                                    </button>
+                                    <button class="btn btn-secondary">
+                                        <i class="zmdi zmdi-edit"></i>
+                                        Edit
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="zmdi zmdi-delete"></i>
+                                        Remove
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-summary">
+                            <div class="cart-summary-row">
+                                <span>Subtotal (2 items)</span>
+                                <span>21,800 kr.</span>
+                            </div>
+                            <div class="cart-summary-row">
+                                <span>Shipping</span>
+                                <span>Calculated at checkout</span>
+                            </div>
+                            <div class="cart-summary-row total">
+                                <span>Total</span>
+                                <span>21,800 kr.</span>
+                            </div>
+                            <button class="checkout-btn">
+                                Proceed to Checkout
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <div class="section-header">
+                            <i class="zmdi zmdi-account-circle"></i>
+                            <h2>Customer Information</h2>
+                        </div>
+                        
+                        <div class="nav-pills">
+                            <button class="nav-pill active" onclick="switchTab(event, 'personal')">
+                                <i class="zmdi zmdi-account"></i>
+                                Personal Details
+                            </button>
+                            <button class="nav-pill" onclick="switchTab(event, 'delivery')">
+                                <i class="zmdi zmdi-truck"></i>
+                                Delivery Options
+                            </button>
+                        </div>
+
+                        <div id="personal" class="tab-content active">
+                            <div class="form-group">
+                                <label><i class="zmdi zmdi-email"></i> Email Address*</label>
+                                <input type="email" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label><i class="zmdi zmdi-phone"></i> Phone Number*</label>
+                                <input type="tel" placeholder="+45 12 34 56 78" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="zmdi zmdi-account"></i> First Name*</label>
+                                    <input type="text" placeholder="John" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="zmdi zmdi-account"></i> Last Name*</label>
+                                    <input type="text" placeholder="Doe" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label><i class="zmdi zmdi-home"></i> Street Address*</label>
+                                <input type="text" placeholder="123 Main Street" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="zmdi zmdi-city"></i> City*</label>
+                                    <input type="text" placeholder="Copenhagen" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="zmdi zmdi-pin"></i> Postal Code*</label>
+                                    <input type="text" placeholder="1000" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label><i class="zmdi zmdi-comment-text"></i> Additional Comments</label>
+                                <textarea placeholder="Any special instructions or requests..."></textarea>
+                            </div>
+                        </div>
+
+                        <div id="delivery" class="tab-content">
+                            <div class="delivery-options">
+                                <h3><i class="zmdi zmdi-truck"></i> Delivery Method</h3>
+                                
+                                <div class="radio-group">
+                                    <input type="radio" name="delivery" id="same" checked>
+                                    <label for="same"><i class="zmdi zmdi-check-circle"></i> Same as billing address</label>
+                                </div>
+
+                                <div class="radio-group">
+                                    <input type="radio" name="delivery" id="cemetery">
+                                    <label for="cemetery"><i class="zmdi zmdi-flower"></i> Deliver to cemetery</label>
+                                </div>
+
+                                <div class="radio-group">
+                                    <input type="radio" name="delivery" id="installation">
+                                    <label for="installation"><i class="zmdi zmdi-settings"></i> Cemetery delivery with installation</label>
+                                </div>
+
+                                <div class="radio-group">
+                                    <input type="radio" name="delivery" id="pickup">
+                                    <label for="pickup"><i class="zmdi zmdi-store"></i> Pick up at store</label>
+                                </div>
+
+                                <div class="form-group" style="margin-top: 24px; margin-bottom: 0;">
+                                    <label><i class="zmdi zmdi-pin-drop"></i> Cemetery & Gravesite Number*</label>
+                                    <input type="text" placeholder="Enter cemetery name and gravesite number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
 
-            <div id="personal" class="tab-content active">
-                <div class="form-group">
-                    <label><i class="zmdi zmdi-email"></i> Email Address*</label>
-                    <input type="email" placeholder="your.email@example.com" required>
+            <!-- FOOTER START -->
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <div class="logo-icon">
+                                <img src="img/fav.png" class="logo_main" alt="" width="239" height="59">
+                            </div>
+                            <span class="logo-text">GRANIT WORLD</span>
+                        </div>
+                        <p class="footer-description">Come by our showroom in Grindsted, where we have exhibited some of
+                            our many beautiful products and delicious solutions. Our experts are ready to advise and
+                            help you choose the right products for your project.</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <div class="footer-heading">Address</div>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="material-icons">location_on</span>
+                                <span>Thorsvej 23B<br>7200 Grindsted</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="material-icons">email</span>
+                                <span>mail@granitworld.dk</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="material-icons">phone</span>
+                                <span>+45 2445 5789</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <div class="footer-heading">Get Free Link</div>
+                        <a href="tombstone.html" class="footer-link">
+                            <span class="material-icons">arrow_forward</span>
+                            <span>Tombstone</span>
+                        </a>
+                        <a href="urnstone.html" class="footer-link">
+                            <span class="material-icons">arrow_forward</span>
+                            <span>Urnstone</span>
+                        </a>
+                        <a href="lawnstone.html" class="footer-link">
+                            <span class="material-icons">arrow_forward</span>
+                            <span>Lawn Stones</span>
+                        </a>
+                        <a href="otherstone.html" class="footer-link">
+                            <span class="material-icons">arrow_forward</span>
+                            <span>Other Stones</span>
+                        </a>
+                        <a href="father_mother_stone.html" class="footer-link">
+                            <span class="material-icons">arrow_forward</span>
+                            <span>Father Mother Stones</span>
+                        </a>
+                        <a href="vase.html" class="footer-link">
+                            <span class="material-icons">arrow_forward</span>
+                            <span>Decoration, Vases</span>
+                        </a>
+                    </div>
+
+                    <div class="footer-section">
+                        <div class="footer-heading">Newsletter</div>
+                        <p class="footer-description">Subscribe to our newsletter for updates and exclusive offers.</p>
+                        <form class="newsletter-form">
+                            <input type="email" class="newsletter-input" placeholder="Email here" required>
+                            <button type="submit" class="newsletter-btn">
+                                <span class="material-icons">send</span>
+                            </button>
+                        </form>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label><i class="zmdi zmdi-phone"></i> Phone Number*</label>
-                    <input type="tel" placeholder="+45 12 34 56 78" required>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label><i class="zmdi zmdi-account"></i> First Name*</label>
-                        <input type="text" placeholder="John" required>
-                    </div>
-                    <div class="form-group">
-                        <label><i class="zmdi zmdi-account"></i> Last Name*</label>
-                        <input type="text" placeholder="Doe" required>
+                <div class="footer-bottom">
+                    <div class="copyright">© Granitworld 2025 | All Rights Reserved</div>
+                    <div class="footer-links">
+                        <a href="#">Terms & Condition</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Contact Us</a>
                     </div>
                 </div>
+            </footer>
+            <!-- FOOTER END -->
 
-                <div class="form-group">
-                    <label><i class="zmdi zmdi-home"></i> Street Address*</label>
-                    <input type="text" placeholder="123 Main Street" required>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label><i class="zmdi zmdi-city"></i> City*</label>
-                        <input type="text" placeholder="Copenhagen" required>
-                    </div>
-                    <div class="form-group">
-                        <label><i class="zmdi zmdi-pin"></i> Postal Code*</label>
-                        <input type="text" placeholder="1000" required>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label><i class="zmdi zmdi-comment-text"></i> Additional Comments</label>
-                    <textarea placeholder="Any special instructions or requests..."></textarea>
-                </div>
-            </div>
-
-            <div id="delivery" class="tab-content">
-                <div class="delivery-options">
-                    <h3><i class="zmdi zmdi-truck"></i> Delivery Method</h3>
-                    
-                    <div class="radio-group">
-                        <input type="radio" name="delivery" id="same" checked>
-                        <label for="same"><i class="zmdi zmdi-check-circle"></i> Same as billing address</label>
-                    </div>
-
-                    <div class="radio-group">
-                        <input type="radio" name="delivery" id="cemetery">
-                        <label for="cemetery"><i class="zmdi zmdi-flower"></i> Deliver to cemetery</label>
-                    </div>
-
-                    <div class="radio-group">
-                        <input type="radio" name="delivery" id="installation">
-                        <label for="installation"><i class="zmdi zmdi-settings"></i> Cemetery delivery with installation</label>
-                    </div>
-
-                    <div class="radio-group">
-                        <input type="radio" name="delivery" id="pickup">
-                        <label for="pickup"><i class="zmdi zmdi-store"></i> Pick up at store</label>
-                    </div>
-
-                    <div class="form-group" style="margin-top: 24px; margin-bottom: 0;">
-                        <label><i class="zmdi zmdi-pin-drop"></i> Cemetery & Gravesite Number*</label>
-                        <input type="text" placeholder="Enter cemetery name and gravesite number">
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
+
+    <a href="#" class="scroll_to_top" title="Scroll to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/custom/custom.js'></script>
+    <script type='text/javascript' src='js/vendor/modernizr.min.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/js.cookie.min.js'></script>
+    <script type='text/javascript' src='js/vendor/superfish.js'></script>
+    <script type='text/javascript' src='js/custom/core.utils.js'></script>
+    <script type='text/javascript' src='js/custom/core.init.js'></script>
+    <script type='text/javascript' src='js/custom/init.js'></script>
 
     <script>
         function switchTab(event, tabName) {
@@ -225,5 +464,15 @@
             event.currentTarget.classList.add('active');
         }
     </script>
+    <script>
+    function goToCart() {
+      window.location.href = 'cartpage.html';
+    }
+  </script>
+
 </body>
+
 </html>
+
+
+
