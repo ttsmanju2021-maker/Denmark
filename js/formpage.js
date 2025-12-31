@@ -533,16 +533,6 @@ function renderText(ctx) {
             }
         });
         ctx.fillText(line, centerX, yPos);
-        yPos += 50;
-    }
-    
-    // Bottom decoration
-    if (state.persons.some(p => p.name) || legacyText) {
-        ctx.strokeStyle = state.color;
-        ctx.lineWidth = 3;
-        ctx.beginPath();
-        ctx.arc(centerX, yPos + 50, 40, 0, Math.PI * 2);
-        ctx.stroke();
     }
     
     // Render decorations
