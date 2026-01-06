@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en-US" class="scheme_original">
+
+<head>
+    <title>Showroom &#8211; Granitworld</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Average|Droid+Serif:400,700|Libre+Baskerville:400,400i,700|Open+Sans:300,400,600,700,800|Oswald:300,400,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext'
+        type='text/css' media='all' />
+    <link rel='stylesheet' href='css/layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/revslider/settings.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce-layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce-smallscreen.css' type='text/css'
+        media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.animation.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/theme.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/plugin.woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/comp/comp.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/swiper/swiper.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/checkoutpage.css">
+    <!--<< Favicon >>-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        } */
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .image-zoom {
+            transition: transform 0.5s ease;
+        }
+        .image-zoom:hover {
+            transform: scale(1.05);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+
+
+
+</head>
+
+<body
+    class="index home page body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
+
+    <a id="toc_home" class="sc_anchor" title="Home"
+        data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site"
+        data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
+    <a id="toc_top" class="sc_anchor" title="To Top"
+        data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page"
+        data-icon="icon-double-up" data-url="" data-separator="yes"></a>
+
+    <div class="body_wrap">
+        <div class="page_wrap" style="background: #e5e7eb;">
+            <div class="top_panel_fixed_wrap"></div>
+            <header class="top_panel_wrap top_panel_style_4 scheme_original">
+                <div class="top_panel_wrap_inner top_panel_inner_style_4 top_panel_position_above">
+                    <div class="top_panel_middle">
+                        <div class="content_wrap">
+                            <div class="contact_logo">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" class="logo_main" alt="" width="239" height="59">
+                                        <img src="img/logo.png" class="logo_fixed" alt="" width="239" height="59">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact_field contact_cart">
+                                <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
+                                    <span class="contact_icon " onclick="goToCart()">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    <span class="contact_label contact_cart_label">cart:</span>
+                                    <span class="contact_cart_totals">
+                                        <span class="cart_items">0 Items</span>
+                                        <span class="cart_summa">&#36;0.00</span>
+                                    </span>
+                                </a>
+                                <ul class="widget_area sidebar_cart sidebar">
+                                    <li>
+                                        <div class="widget woocommerce widget_shopping_cart">
+                                            <div class="hide_cart_widget_if_empty">
+                                                <div class="widget_shopping_cart_content">
+                                                    <p class="woocommerce-mini-cart__empty-message">No products in the
+                                                        cart.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu_main_wrap">
+                                <nav class="menu_main_nav_area menu_hover_fade">
+                                    <ul id="menu_main" class="menu_main_nav">
+                                        <li
+                                            class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                            <a href="tombstone.html"><span>Tombstone</span></a>
+
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a
+                                                href="urnstone.html"><span>Urnstone</span></a>
+                                        </li>
+                                        <li class="menu-item"><a href="lawnstone.html"><span> Lawn Stones</span></a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a
+                                                href="otherstone.html"><span>OtherStone</span></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="father_mother_stone.html"><span>Father
+                                                            Mother Stones</span></a></li>
+                                                <!-- <li class="menu-item menu-item-has-children"><a href="#"><span>Masonry</span></a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item"><a href="masonry-2-columns.html"><span>Masonry 2 columns</span></a></li>
+                                                        <li class="menu-item"><a href="masonry-3-columns.html"><span>Masonry 3 columns</span></a></li>
+                                                    </ul>
+                                                </li> -->
+                                                <!-- <li class="menu-item menu-item-has-children"><a href="#"><span>Portfolio</span></a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item"><a href="portfolio-2-columns.html"><span>Portfolio 2 columns</span></a></li>
+                                                        <li class="menu-item"><a href="portfolio-3-columns.html"><span>Portfolio 3 columns</span></a></li>
+                                                    </ul>
+                                                </li> -->
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a href="vase.html"><span> Decorations, Vases/
+                                                    Birdbaths</span></a></li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="header_mobile">
+                <div class="content_wrap">
+                    <div class="menu_button icon-menu"></div>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" class="logo_main" alt="" width="239" height="59">
+                        </a>
+                    </div>
+                </div>
+                <div class="side_wrap">
+                    <div class="close">Close</div>
+                    <div class="panel_top">
+                        <nav class="menu_main_nav_area">
+                            <ul id="menu_mobile" class="menu_main_nav">
+                                <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                    <a href="#"><span>Home</span></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item current-menu-item"><a href="index.html"><span>Homepage
+                                                    1</span></a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children"><a href="#"><span>About us</span></a>
+
+                                </li>
+                                <li class="menu-item"><a href="farm.html"><span>Farm</span></a></li>
+                                <li class="menu-item menu-item-has-children"><a href="#"><span>Blog</span></a>
+
+                                </li>
+                                <li class="menu-item"><a href="shop.html"><span>Products</span></a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="panel_bottom">
+                    </div>
+                </div>
+                <div class="mask"></div>
+            </div>
+         
+              <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            
+            <!-- Left Column - Image Gallery -->
+            <div class="space-y-4">
+                <div class="relative overflow-hidden rounded-2xl shadow-2xl bg-white p-4">
+                    <div class="aspect-square overflow-hidden rounded-xl">
+                        <img src="img/read-more.jpg" 
+                             alt="Heart Vizag Blue Stone" 
+                             class="w-full h-full object-cover image-zoom">
+                    </div>
+                    <div class="absolute top-8 right-8 bg-red-500 text-white px-4 py-2 rounded-full font-semibold shadow-lg">
+                        Premium Quality
+                    </div>
+                </div>
+                
+                <!-- Thumbnail Gallery -->
+                <div class="grid grid-cols-4 gap-3">
+                    <div class="aspect-square rounded-lg overflow-hidden border-2 border-purple-500 cursor-pointer hover:opacity-75 transition">
+                        <img src="img/z7.jpg" class="w-full h-full object-cover" alt="View 1">
+                    </div>
+                    <div class="aspect-square rounded-lg overflow-hidden border-2 border-gray-300 cursor-pointer hover:opacity-75 transition">
+                        <img src="img/z6.png" class="w-full h-full object-cover" alt="View 2">
+                    </div>
+                    <div class="aspect-square rounded-lg overflow-hidden border-2 border-gray-300 cursor-pointer hover:opacity-75 transition">
+                        <img src="img/z4.jpg" class="w-full h-full object-cover" alt="View 3">
+                    </div>
+                    <div class="aspect-square rounded-lg overflow-hidden border-2 border-gray-300 cursor-pointer hover:opacity-75 transition">
+                        <img src="img/z3.png" class="w-full h-full object-cover" alt="View 4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Product Details -->
+            <div class="space-y-6">
+                <div>
+                    <div class="inline-block px-4 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-4">
+                        HEART V8 POLISHED/BRUSHED EDGES
+                    </div>
+                    <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                        Heart Vizag Blue
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-6">Polished/Beveled Edges</p>
+                    
+                    <!-- Price Box -->
+                    <div class="glass-card rounded-2xl p-6 mb-6 shadow-lg">
+                        <div class="flex items-baseline justify-between">
+                            <div>
+                                <span class="text-sm text-gray-600 uppercase tracking-wide">Price</span>
+                                <div class="text-5xl font-bold text-gray-900 mt-1">
+                                    DKK 10,900
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-sm text-gray-600">Includes:</div>
+                                <div class="text-xs text-green-600 font-medium">✓ Engraving</div>
+                                <div class="text-xs text-green-600 font-medium">✓ Delivery*</div>
+                                <div class="text-xs text-green-600 font-medium">✓ Installation</div>
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-4 italic">* Surcharges may apply for delivery to non-bridged islands</p>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <button class="flex-1  hover:from-purple-700 hover:to-purple-800 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-200">
+                            Start Design on Stone
+                        </button>
+                        <button class="flex-1 bg-amber-600 hover:bg-amber-700 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-200">
+                            Get Free Help
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Specifications -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 space-y-4">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Specifications</h3>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <div class="text-sm text-gray-600 mb-1">Dimensions</div>
+                            <div class="text-lg font-semibold text-gray-900">70 × 50 × 14 cm</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <div class="text-sm text-gray-600 mb-1">Material</div>
+                            <div class="text-lg font-semibold text-gray-900">Vizag Blue Granite</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <div class="text-sm text-gray-600 mb-1">Origin</div>
+                            <div class="text-lg font-semibold text-gray-900">Southern India</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <div class="text-sm text-gray-600 mb-1">Finish</div>
+                            <div class="text-lg font-semibold text-gray-900">Polished/Beveled</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Features -->
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl shadow-lg p-6">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Key Features</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-purple-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-700">Half polished and half beaten edges for elegant contrast</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-purple-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-700">Shiny polished surface with natural stone texture</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-purple-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-700">Beautiful natural stone with slightly masculine expression</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-purple-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-700">Weather-resistant and suitable for Danish climate</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detailed Description Section -->
+        <div class="mt-16">
+            <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">About This Memorial Stone</h2>
+                
+                <div class="prose prose-lg max-w-none text-gray-700 space-y-4">
+                    <p class="text-lg leading-relaxed">
+                        Heart in beautiful blue granite from southern India. The edge is half polished and half beaten. Natural stone with a shiny polished surface. Beautiful natural stone with a slightly masculine expression.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Material & Origin</h3>
+                    <p class="leading-relaxed">
+                        This type of granite is an overseas deep rock that was formed far below the earth's crust. This has given it a very solid structure, which makes it particularly suitable for the Danish climate.
+                    </p>
+                    
+                    <p class="leading-relaxed">
+                        This blue-gray surface of the granite gives a calm expression, which comes to life and is experienced with a more vibrant structure when the stone gets wet.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Natural Variations</h3>
+                    <p class="leading-relaxed">
+                        It should be noted that all natural stones are different, and it is therefore expected that the grain patterns and structures may vary from stone to stone.
+                    </p>
+                    
+                    <p class="leading-relaxed">
+                        All of our urns undergo quality control in terms of surface, structure and appearance, ensuring you receive a memorial of the highest standard.
+                    </p>
+                </div>
+
+                <!-- Trust Badges -->
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-12 pt-8 border-t border-gray-200">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-gray-900">Quality Guaranteed</div>
+                        <div class="text-sm text-gray-600">Premium materials</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-gray-900">Fast Delivery</div>
+                        <div class="text-sm text-gray-600">Professional service</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-gray-900">Expert Support</div>
+                        <div class="text-sm text-gray-600">Free consultation</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="font-semibold text-gray-900">Installation</div>
+                        <div class="text-sm text-gray-600">Complete setup</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Products -->
+        <div class="mt-16">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Similar Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="img/z3.png" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Product">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Classic Black Granite</h3>
+                        <p class="text-gray-600 mb-4">Elegant and timeless design</p>
+                        <div class="text-2xl font-bold text-red-600 mb-4">DKK 9,500</div>
+                        <button class="w-full  text-white py-3 rounded-lg hover:from-purple-700 hover:to-purple-800 transition">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="img/z5.jpg" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Product">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">White Marble Heart</h3>
+                        <p class="text-gray-600 mb-4">Pure and peaceful expression</p>
+                        <div class="text-2xl font-bold text-red-600 mb-4">DKK 11,200</div>
+                        <button class="w-full  text-white py-3 rounded-lg hover:from-purple-700 hover:to-purple-800 transition">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                    <div class="aspect-square overflow-hidden">
+                        <img src="img/z7.jpg" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Product">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Rose Granite Stone</h3>
+                        <p class="text-gray-600 mb-4">Warm and comforting tone</p>
+                        <div class="text-2xl font-bold text-red-600 mb-4">DKK 10,500</div>
+                        <button class="w-full  text-white py-3 rounded-lg hover:from-purple-700 hover:to-purple-800 transition">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <!-- <span class="material-icons">diamond</span> -->
+                            <img src="img/fav.png" class="logo_main" alt="" width="239" height="59">
+
+                        </div>
+                        <span class="logo-text">GRANIT WORLD</span>
+                    </div>
+                    <p class="footer-description">Come by our showroom in Grindsted, where we have exhibited some of
+                        our many beautiful products and delicious solutions. Our experts are ready to advise and
+                        help you choose the right products for your project.</p>
+                </div>
+
+                <div class="footer-section">
+                    <div class="footer-heading">Address</div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="material-icons">location_on</span>
+                            <span>Thorsvej 23B<br>7200 Grindsted</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons">email</span>
+                            <span>mail@granitworld.dk</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons">phone</span>
+                            <span>+45 2445 5789</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <div class="footer-heading">Get Free Link</div>
+                    <a href="tombstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Tombstone</span>
+                    </a>
+                    <a href="urnstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Urnstone</span>
+                    </a>
+                    <a href="lawnstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Lawn Stones</span>
+                    </a>
+                    <a href="otherstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Other Stones</span>
+                    </a>
+                    <a href="father_mother_stone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Father Mother Stones</span>
+                    </a>
+                    <a href="vase.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Decoration, Vases</span>
+                    </a>
+
+                </div>
+
+                <div class="footer-section">
+                    <div class="footer-heading">Newsletter</div>
+                    <p class="footer-description">Subscribe to our newsletter for updates and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Email here" required>
+                        <button type="submit" class="newsletter-btn">
+                            <span class="material-icons">send</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">© Granitworld 2025 | All Rights Reserved</div>
+                <div class="footer-links">
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    </div>
+
+    <a href="#" class="scroll_to_top" title="Scroll to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <div class="custom_html_section"></div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/custom/custom.js'></script>
+    <script type='text/javascript' src='js/vendor/esg/jquery.themepunch.tools.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/jquery.themepunch.revolution.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/extensions/revolution.extension.actions.min.js'></script>
+    <script type='text/javascript'
+        src='js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/extensions/revolution.extension.navigation.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/extensions/revolution.extension.slideanims.min.js'></script>
+    <script type='text/javascript' src='js/vendor/modernizr.min.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/js.cookie.min.js'></script>
+    <script type='text/javascript' src='js/vendor/superfish.js'></script>
+    <script type='text/javascript' src='js/custom/core.utils.js'></script>
+    <script type='text/javascript' src='js/custom/core.init.js'></script>
+    <script type='text/javascript' src='js/custom/init.js'></script>
+    <script type='text/javascript' src='js/custom/core.debug.js'></script>
+    <script type='text/javascript' src='js/custom/embed.min.js'></script>
+    <script type='text/javascript' src='js/custom/shortcodes.js'></script>
+    <script type='text/javascript' src='js/vendor/comp/comp_front.min.js'></script>
+    <script type='text/javascript' src='js/vendor/ui/core.min.js'></script>
+    <script type='text/javascript' src='js/vendor/ui/widget.min.js'></script>
+    <script type='text/javascript' src='js/vendor/ui/tabs.min.js'></script>
+    <script type='text/javascript' src='js/vendor/isotope.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/vendor/swiper/swiper.js'></script>
+    <script src="js/slider.js"></script>
+
+    <script>
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections with animate-on-scroll class
+        document.querySelectorAll('.animate-on-scroll').forEach((section) => {
+            observer.observe(section);
+        });
+    </script>
+    <script src="js/cart.js"></script>
+    <script src="js/checkoutpopup.js"></script>
+    <script src="js/loadinganimation.js"></script>
+    <script>
+        function goToCart() {
+            window.location.href = 'cartpage.html';
+        }
+    </script>
+
+    <script>
+          function goToReadMore() {
+        // Redirect to product details page
+        window.location.href = 'read-more.html'; // Change to your desired URL
+    }
+    </script>
+
+
+</body>
+
+</html>

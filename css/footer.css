@@ -501,7 +501,7 @@
 
         .sc_services_item_content p {
             font-size: 13px;
-            color: #666;
+            /* color: #666; */
             margin-bottom: 8px;
         }
 
@@ -562,61 +562,122 @@
             display: block;
         }
 
-        .sc_services_item_content {
-            padding: 20px;
-            text-align: center;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
+   
+    .sc_services_item_content {
+        padding: 20px;
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
 
-        .sc_services_item_title {
-            margin-bottom: 15px;
-        }
+    .sc_services_item_title {
+        margin-bottom: 15px;
+    }
 
-        .sc_services_item_title a {
-            text-decoration: none;
-            color: #222;
-            font-size: 20px;
-            font-weight: bold;
-            line-height: 1.4;
-        }
+    .sc_services_item_title a {
+        text-decoration: none;
+        color: #222;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.4;
+        transition: color 0.3s ease;
+    }
 
-        .sc_services_item_content p {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 10px;
-        }
+    .sc_services_item_title a:hover {
+        color: #2563eb;
+    }
 
-        .sc_button {
-            display: inline-block;
-            margin-top: auto;
-            padding: 10px 18px;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 13px;
-            transition: background 0.3s ease;
-        }
+    /* Description text */
+    .item-description {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 15px;
+        line-height: 1.6;
+        text-align: left;
+    }
 
-        .sc_button:hover {
-            background: #1e4266;
-        }
+    /* Dimensions styling */
+    .item-dimensions {
+        font-size: 14px;
+        color: #444;
+        font-weight: 500;
+        margin-bottom: 8px;
+        text-align: center;
+    }
 
-        /* Responsive adjustments */
-        @media (max-width: 1024px) {
-            .services-grid {
-                grid-template-columns: 1fr 1fr;
-                padding: 40px 20px;
-            }
-        }
+    /* Price styling - distinctive color */
+    .item-price {
+        font-size: 18px;
+        color: #dc2626;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-        @media (max-width: 768px) {
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .sc_services_item img {
-                height: 250px;
-            }
-        }
+    /* Button container */
+    .button-group {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: auto;
+        flex-wrap: wrap;
+    }
+
+    /* Base button styles */
+    .sc_button {
+        display: inline-block;
+        padding: 10px 18px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 13px;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    /* Primary button (Start Designer) - Blue */
+    .sc_button_primary {
+        background: #2563eb;
+    }
+
+    .sc_button_primary:hover {
+        background: #1e40af;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
+    }
+
+    /* Secondary button (Read More) - Purple Gradient */
+    .sc_button_secondary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sc_button_secondary::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); */
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .sc_button_secondary:hover::before {
+        opacity: 1;
+    }
+
+    .sc_button_secondary:hover {
+        transform: translateY(-2px);
+        /* box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4); */
+    }
+
+    .sc_button_secondary span {
+        position: relative;
+        z-index: 1;
+    }
