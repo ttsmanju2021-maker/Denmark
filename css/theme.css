@@ -133,9 +133,7 @@ h6 {
     color: #e12c2c;
 }
 
-.scheme_original a:hover {
-    color: #e12c2c;
-}
+
 
 .scheme_original blockquote:before {
     color: #231f20;
@@ -472,7 +470,7 @@ textarea {
 .scheme_original input[type="password"]:focus,
 .scheme_original select:focus,
 .scheme_original textarea:focus {
-    border-color: #231f20;
+    border-color: #fff;
 }
 
 .scheme_original input::-webkit-input-placeholder,

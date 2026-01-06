@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en-US" class="scheme_original">
+
+<head>
+    <title>Showroom &#8211; Granitworld</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Average|Droid+Serif:400,700|Libre+Baskerville:400,400i,700|Open+Sans:300,400,600,700,800|Oswald:300,400,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext'
+        type='text/css' media='all' />
+    <link rel='stylesheet' href='css/layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/revslider/settings.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce-layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce-smallscreen.css' type='text/css'
+        media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' href='js/vendor/woo/woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.animation.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/theme.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/woo/plugin.woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/comp/comp.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/swiper/swiper.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/checkoutpage.css">
+    <!--<< Favicon >>-->
+    <link rel="shortcut icon" href="img/fav.png">
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="css/contact.css">
+
+
+
+</head>
+
+<body
+    class="index home page body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
+
+    <a id="toc_home" class="sc_anchor" title="Home"
+        data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site"
+        data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
+    <a id="toc_top" class="sc_anchor" title="To Top"
+        data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page"
+        data-icon="icon-double-up" data-url="" data-separator="yes"></a>
+
+    <div class="body_wrap">
+        <div class="page_wrap">
+            <div class="top_panel_fixed_wrap"></div>
+            <header class="top_panel_wrap top_panel_style_4 scheme_original">
+                <div class="top_panel_wrap_inner top_panel_inner_style_4 top_panel_position_above">
+                    <div class="top_panel_middle">
+                        <div class="content_wrap">
+                            <div class="contact_logo">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" class="logo_main" alt="" width="239" height="59">
+                                        <img src="img/logo.png" class="logo_fixed" alt="" width="239" height="59">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact_field contact_cart">
+                                <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
+                                    <span class="contact_icon " onclick="goToCart()">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>
+                                    <span class="contact_label contact_cart_label">cart:</span>
+                                    <span class="contact_cart_totals">
+                                        <span class="cart_items">0 Items</span>
+                                        <span class="cart_summa">&#36;0.00</span>
+                                    </span>
+                                </a>
+                                <ul class="widget_area sidebar_cart sidebar">
+                                    <li>
+                                        <div class="widget woocommerce widget_shopping_cart">
+                                            <div class="hide_cart_widget_if_empty">
+                                                <div class="widget_shopping_cart_content">
+                                                    <p class="woocommerce-mini-cart__empty-message">No products in the
+                                                        cart.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu_main_wrap">
+                                <nav class="menu_main_nav_area menu_hover_fade">
+                                    <ul id="menu_main" class="menu_main_nav">
+                                        <li
+                                            class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                            <a href="tombstone.html"><span>Tombstone</span></a>
+
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a
+                                                href="urnstone.html"><span>Urnstone</span></a>
+                                        </li>
+                                        <li class="menu-item"><a href="lawnstone.html"><span> Lawn Stones</span></a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a
+                                                href="otherstone.html"><span>OtherStone</span></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="father_mother_stone.html"><span>Father
+                                                            Mother Stones</span></a></li>
+                                              
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a href="vase.html"><span> Decorations, Vases/
+                                                    Birdbaths</span></a></li>
+                                        <li class="menu-item"><a href="contact.html"><span> 
+                                                    Contact</span></a></li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="header_mobile">
+                <div class="content_wrap">
+                    <div class="menu_button icon-menu"></div>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" class="logo_main" alt="" width="239" height="59">
+                        </a>
+                    </div>
+                </div>
+                <div class="side_wrap">
+                    <div class="close">Close</div>
+                    <div class="panel_top">
+                        <nav class="menu_main_nav_area">
+                            <ul id="menu_mobile" class="menu_main_nav">
+                                <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                    <a href="#"><span>Home</span></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item current-menu-item"><a href="index.html"><span>Homepage
+                                                    1</span></a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children"><a href="#"><span>About us</span></a>
+
+                                </li>
+                                <li class="menu-item"><a href="farm.html"><span>Farm</span></a></li>
+                                <li class="menu-item menu-item-has-children"><a href="#"><span>Blog</span></a>
+
+                                </li>
+                                <li class="menu-item"><a href="shop.html"><span>Products</span></a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="panel_bottom">
+                    </div>
+                </div>
+                <div class="mask"></div>
+            </div>
+            <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-red-600 to-red-800 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-6" style="color: #fff;">
+                    Get in Touch
+                </h1>
+                <p class="text-xl text-red-100 max-w-3xl mx-auto">
+                    We're here to help you create a beautiful and lasting memorial. Our expert team is ready to provide free, no-obligation consultation and guidance.
+                </p>
+            </div>
+
+            <!-- Contact Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+                <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clock text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">24/7</h3>
+                    <p class="text-gray-600">Response Time</p>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">1000+</h3>
+                    <p class="text-gray-600">Happy Families</p>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-gift text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Free</h3>
+                    <p class="text-gray-600">Consultation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            <!-- Contact Form - 2/3 width -->
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 custom-shadow">
+                    <div class="flex items-center space-x-3 mb-2">
+                        <i class="fas fa-envelope-open-text text-red-600 text-3xl"></i>
+                        <h2 class="text-3xl font-bold text-gray-900">Send Us a Message</h2>
+                    </div>
+                    <p class="text-gray-600 mb-8">Fill out the form below and we'll get back to you within 24 hours</p>
+                    
+                   <form id="contactForm" class="space-y-6">
+
+    <!-- Name Fields -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+            <label for="first_name" class="block text-sm font-semibold text-gray-700 mb-2">
+                <i class="fas fa-user text-red-600 mr-1"></i> First Name *
+            </label>
+            <input type="text" id="first_name" name="first_name" required
+                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                placeholder="John">
+        </div>
+
+        <div>
+            <label for="last_name" class="block text-sm font-semibold text-gray-700 mb-2">
+                <i class="fas fa-user text-red-600 mr-1"></i> Last Name *
+            </label>
+            <input type="text" id="last_name" name="last_name" required
+                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                placeholder="Doe">
+        </div>
+    </div>
+
+    <!-- Contact Fields -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+            <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">
+                <i class="fas fa-envelope text-red-600 mr-1"></i> Email Address *
+            </label>
+            <input type="email" id="email" name="email" required
+                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                placeholder="john@example.com">
+        </div>
+
+        <div>
+            <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">
+                <i class="fas fa-phone text-red-600 mr-1"></i> Phone Number
+            </label>
+            <input type="tel" id="phone" name="phone"
+                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition"
+                placeholder="+45 1234 5678">
+        </div>
+    </div>
+
+    <!-- Inquiry Type -->
+    <div>
+        <label for="inquiry_type" class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-question-circle text-red-600 mr-1"></i> Inquiry Type *
+        </label>
+        <select id="inquiry_type" name="inquiry_type" required
+            class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+            <option value="">Select an option</option>
+            <option value="product">Product Inquiry</option>
+            <option value="custom">Custom Design Request</option>
+            <option value="quote">Price Quote</option>
+            <option value="installation">Installation & Delivery</option>
+            <option value="engraving">Engraving Options</option>
+            <option value="material">Material Questions</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <!-- Product Interest -->
+    <div>
+        <label for="product_interest" class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-heart text-red-600 mr-1"></i> Interested Product
+        </label>
+        <select id="product_interest" name="product_interest"
+            class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+            <option value="">Choose a product (optional)</option>
+            <option value="heart-vizag">Heart Vizag Blue</option>
+            <option value="classic-black">Classic Black Granite</option>
+            <option value="white-marble">White Marble Heart</option>
+            <option value="rose-granite">Rose Granite Stone</option>
+            <option value="custom">Custom Design</option>
+        </select>
+    </div>
+
+    <!-- Budget Range -->
+    <div>
+        <label for="budget_range" class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-wallet text-red-600 mr-1"></i> Budget Range (DKK)
+        </label>
+        <select id="budget_range" name="budget_range"
+            class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition">
+            <option value="">Select your budget (optional)</option>
+            <option value="under-8000">Under 8,000</option>
+            <option value="8000-10000">8,000 - 10,000</option>
+            <option value="10000-12000">10,000 - 12,000</option>
+            <option value="12000-15000">12,000 - 15,000</option>
+            <option value="above-15000">Above 15,000</option>
+        </select>
+    </div>
+
+    <!-- Message -->
+    <div>
+        <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-comment-dots text-red-600 mr-1"></i> Your Message *
+        </label>
+        <textarea id="message" name="message" required rows="6"
+            class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-red-500 focus:border-transparent transition resize-none"
+            placeholder="Please tell us more about your needs..."></textarea>
+    </div>
+
+    <!-- Preferred Contact Method -->
+    <div>
+        <span class="block text-sm font-semibold text-gray-700 mb-3">
+            <i class="fas fa-headset text-red-600 mr-1"></i> Preferred Contact Method
+        </span>
+        <div class="flex flex-wrap gap-4">
+            <label class="flex items-center cursor-pointer" for="contact_email">
+                <input type="radio" id="contact_email" name="contact_method" value="email"
+                    class="w-4 h-4 text-red-600 focus:ring-red-500">
+                <span class="ml-2 text-gray-700">Email</span>
+            </label>
+
+            <label class="flex items-center cursor-pointer" for="contact_phone">
+                <input type="radio" id="contact_phone" name="contact_method" value="phone"
+                    class="w-4 h-4 text-red-600 focus:ring-red-500">
+                <span class="ml-2 text-gray-700">Phone</span>
+            </label>
+
+            <label class="flex items-center cursor-pointer" for="contact_both">
+                <input type="radio" id="contact_both" name="contact_method" value="both" checked
+                    class="w-4 h-4 text-red-600 focus:ring-red-500">
+                <span class="ml-2 text-gray-700">Either</span>
+            </label>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="flex items-start">
+        <input type="checkbox" id="newsletter" name="newsletter"
+            class="w-4 h-4 text-red-600 focus:ring-red-500 rounded mt-1">
+        <label for="newsletter" class="ml-3 text-sm text-gray-700">
+            Yes, I'd like to receive updates about new products and offers
+        </label>
+    </div>
+
+    <!-- Submit Button -->
+    <div>
+        <button type="submit"
+            class="w-full gradient-bg text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-200 flex items-center justify-center space-x-2">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+        </button>
+        <p class="text-sm text-gray-500 text-center mt-4">
+            <i class="fas fa-shield-alt text-red-600"></i> By submitting this form, you agree to our privacy policy
+        </p>
+    </div>
+
+</form>
+
+                </div>
+            </div>
+
+            <!-- Contact Information Sidebar - 1/3 width -->
+            <div class="lg:col-span-1 space-y-6">
+                
+                <!-- Contact Details Card -->
+                <div class="bg-white rounded-3xl shadow-xl p-8">
+                    <div class="flex items-center space-x-2 mb-6">
+                        <i class="fas fa-address-book text-red-600 text-2xl"></i>
+                        <h3 class="text-2xl font-bold text-gray-900">Contact Info</h3>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <!-- Phone -->
+                        <div class="flex items-start space-x-4 p-4 bg-red-50 rounded-xl">
+                            <div class="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-phone-alt text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Phone</h4>
+                                <p class="text-gray-600 font-medium">+45 1234 5678</p>
+                                <p class="text-sm text-gray-500">Mon-Fri 9AM-6PM</p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="flex items-start space-x-4 p-4 bg-red-50 rounded-xl">
+                            <div class="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-envelope text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Email</h4>
+                                <p class="text-gray-600 font-medium">info@memorial.com</p>
+                                <p class="text-sm text-gray-500">24/7 Support</p>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="flex items-start space-x-4 p-4 bg-red-50 rounded-xl">
+                            <div class="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-map-marker-alt text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Location</h4>
+                                <p class="text-gray-600 font-medium">Copenhagen, Denmark</p>
+                                <p class="text-sm text-gray-500">Visit by appointment</p>
+                            </div>
+                        </div>
+
+                        <!-- Working Hours -->
+                        <div class="flex items-start space-x-4 p-4 bg-red-50 rounded-xl">
+                            <div class="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i class="far fa-clock text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Working Hours</h4>
+                                <p class="text-gray-600 text-sm">Mon - Fri: 9:00 - 18:00</p>
+                                <p class="text-gray-600 text-sm">Sat: 10:00 - 16:00</p>
+                                <p class="text-gray-600 text-sm">Sun: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="mt-8 pt-6 border-t border-gray-200">
+                        <h4 class="font-semibold text-gray-900 mb-4 flex items-center">
+                            <i class="fas fa-share-alt text-red-600 mr-2"></i> Follow Us
+                        </h4>
+                        <div class="flex space-x-3">
+                            <a href="#" class="w-11 h-11 bg-red-100 rounded-xl flex items-center justify-center hover:bg-red-600 hover:text-white transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="w-11 h-11 bg-red-100 rounded-xl flex items-center justify-center hover:bg-red-600 hover:text-white transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="w-11 h-11 bg-red-100 rounded-xl flex items-center justify-center hover:bg-red-600 hover:text-white transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="w-11 h-11 bg-red-100 rounded-xl flex items-center justify-center hover:bg-red-600 hover:text-white transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Card -->
+                <div class="gradient-bg rounded-3xl shadow-xl p-8 text-white">
+                    <i class="fas fa-headphones-alt text-4xl mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-3">Need Immediate Help?</h3>
+                    <p class="text-red-100 mb-6">Our team is available to answer your questions right away.</p>
+                    <a href="tel:+4512345678" class="block w-full bg-white text-red-600 font-semibold py-3 px-6 rounded-xl text-center hover:bg-gray-100 transition">
+                        <i class="fas fa-phone-volume mr-2"></i> Call Now
+                    </a>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="bg-white rounded-3xl shadow-xl p-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-link text-red-600 mr-2"></i> Quick Links
+                    </h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="flex items-center text-gray-600 hover:text-red-600 transition p-2 rounded-lg hover:bg-red-50">
+                                <i class="fas fa-chevron-right text-red-600 mr-3 text-sm"></i>
+                                <span>Product Catalog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-600 hover:text-red-600 transition p-2 rounded-lg hover:bg-red-50">
+                                <i class="fas fa-chevron-right text-red-600 mr-3 text-sm"></i>
+                                <span>Design Gallery</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-600 hover:text-red-600 transition p-2 rounded-lg hover:bg-red-50">
+                                <i class="fas fa-chevron-right text-red-600 mr-3 text-sm"></i>
+                                <span>FAQ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-600 hover:text-red-600 transition p-2 rounded-lg hover:bg-red-50">
+                                <i class="fas fa-chevron-right text-red-600 mr-3 text-sm"></i>
+                                <span>Shipping Information</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-600 hover:text-red-600 transition p-2 rounded-lg hover:bg-red-50">
+                                <i class="fas fa-chevron-right text-red-600 mr-3 text-sm"></i>
+                                <span>Privacy Policy</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="mt-16">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
+                <div class="p-8">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-2 flex items-center">
+                        <i class="fas fa-map-marked-alt text-red-600 mr-3"></i> Visit Our Location
+                    </h2>
+                    <p class="text-gray-600 mb-6">Find us at our showroom in Copenhagen</p>
+                </div>
+                <div class="h-96 bg-gray-200 relative">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18028.11456998282!2d12.568337!3d55.676098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533c5c803d23%3A0x4dd7edde69467b8!2sCopenhagen%2C%20Denmark!5e0!3m2!1sen!2sus!4v1234567890"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <!-- <span class="material-icons">diamond</span> -->
+                            <img src="img/fav.png" class="logo_main" alt="" width="239" height="59">
+
+                        </div>
+                        <span class="logo-text">GRANIT WORLD</span>
+                    </div>
+                    <p class="footer-description">Come by our showroom in Grindsted, where we have exhibited some of
+                        our many beautiful products and delicious solutions. Our experts are ready to advise and
+                        help you choose the right products for your project.</p>
+                </div>
+
+                <div class="footer-section">
+                    <div class="footer-heading">Address</div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="material-icons">location_on</span>
+                            <span>Thorsvej 23B<br>7200 Grindsted</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons">email</span>
+                            <span>mail@granitworld.dk</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons">phone</span>
+                            <span>+45 2445 5789</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <div class="footer-heading">Get Free Link</div>
+                    <a href="tombstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Tombstone</span>
+                    </a>
+                    <a href="urnstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Urnstone</span>
+                    </a>
+                    <a href="lawnstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Lawn Stones</span>
+                    </a>
+                    <a href="otherstone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Other Stones</span>
+                    </a>
+                    <a href="father_mother_stone.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Father Mother Stones</span>
+                    </a>
+                    <a href="vase.html" class="footer-link">
+                        <span class="material-icons">arrow_forward</span>
+                        <span>Decoration, Vases</span>
+                    </a>
+
+                </div>
+
+                <div class="footer-section">
+                    <div class="footer-heading">Newsletter</div>
+                    <p class="footer-description">Subscribe to our newsletter for updates and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Email here" required>
+                        <button type="submit" class="newsletter-btn">
+                            <span class="material-icons">send</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">© Granitworld 2025 | All Rights Reserved</div>
+                <div class="footer-links">
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    </div>
+
+    <a href="#" class="scroll_to_top" title="Scroll to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <div class="custom_html_section"></div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/custom/custom.js'></script>
+    <script type='text/javascript' src='js/vendor/esg/jquery.themepunch.tools.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/jquery.themepunch.revolution.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/extensions/revolution.extension.actions.min.js'></script>
+    <script type='text/javascript'
+        src='js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/extensions/revolution.extension.navigation.min.js'></script>
+    <script type='text/javascript' src='js/vendor/revslider/extensions/revolution.extension.slideanims.min.js'></script>
+    <script type='text/javascript' src='js/vendor/modernizr.min.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/js.cookie.min.js'></script>
+    <script type='text/javascript' src='js/vendor/superfish.js'></script>
+    <script type='text/javascript' src='js/custom/core.utils.js'></script>
+    <script type='text/javascript' src='js/custom/core.init.js'></script>
+    <script type='text/javascript' src='js/custom/init.js'></script>
+    <script type='text/javascript' src='js/custom/core.debug.js'></script>
+    <script type='text/javascript' src='js/custom/embed.min.js'></script>
+    <script type='text/javascript' src='js/custom/shortcodes.js'></script>
+    <script type='text/javascript' src='js/vendor/comp/comp_front.min.js'></script>
+    <script type='text/javascript' src='js/vendor/ui/core.min.js'></script>
+    <script type='text/javascript' src='js/vendor/ui/widget.min.js'></script>
+    <script type='text/javascript' src='js/vendor/ui/tabs.min.js'></script>
+    <script type='text/javascript' src='js/vendor/isotope.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/vendor/swiper/swiper.js'></script>
+    <script src="js/slider.js"></script>
+    
+    <!-- <script src="js/cart.js"></script> -->
+    <script>
+        function goToCart() {
+            window.location.href = 'cartpage.html';
+        }
+    </script>
+     <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you within 24 hours.');
+            this.reset();
+        });
+    </script>
+    
+
+
+</body>
+
+</html>
